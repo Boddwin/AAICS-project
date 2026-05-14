@@ -1,0 +1,4 @@
+{
+  "dataset": "1-to-n",
+  "algorithm": "RandomForest"
+}

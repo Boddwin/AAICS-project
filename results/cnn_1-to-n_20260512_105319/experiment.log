@@ -1,0 +1,43 @@
+2026-05-12 10:53:19 - INFO - Config saved: results\cnn_1-to-n_20260512_105319\config.json
+2026-05-12 10:53:19 - INFO - ============================================================
+2026-05-12 10:53:19 - INFO - CNN MODEL TRAINING
+2026-05-12 10:53:19 - INFO - ============================================================
+2026-05-12 10:53:20 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 10:53:20 - INFO - Loaded 10 samples from 10 files
+2026-05-12 10:53:20 - INFO - Classes: 1
+2026-05-12 10:53:20 - INFO - Input shape: (10, 300, 40, 1)
+2026-05-12 10:53:20 - INFO - Building CNN model...
+2026-05-12 10:53:20 - INFO - Training for 30 epochs with batch size 8...
+2026-05-12 10:53:30 - INFO - ============================================================
+2026-05-12 10:53:30 - INFO - TRAINING SUMMARY
+2026-05-12 10:53:30 - INFO - ============================================================
+2026-05-12 10:53:30 - INFO - Classes:               1
+2026-05-12 10:53:30 - INFO - Training samples:      10
+2026-05-12 10:53:30 - INFO - Input shape:           (10, 300, 40, 1)
+2026-05-12 10:53:30 - INFO - Epochs:                30
+2026-05-12 10:53:30 - INFO - Batch size:            8
+2026-05-12 10:53:30 - INFO - Final train loss:      0.0000
+2026-05-12 10:53:30 - INFO - Final train accuracy:  0.0000
+2026-05-12 10:53:30 - INFO - Training time:         11.23s
+2026-05-12 10:53:30 - INFO - ============================================================
+2026-05-12 10:53:30 - INFO - Metrics saved for stage: training_complete
+2026-05-12 10:53:30 - INFO - ============================================================
+2026-05-12 10:53:30 - INFO - CNN MODEL EVALUATION
+2026-05-12 10:53:30 - INFO - ============================================================
+2026-05-12 10:53:31 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 10:53:47 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 10:53:58 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 10:54:05 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 10:54:17 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 10:54:28 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 10:54:34 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 10:54:35 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 10:54:35 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 10:54:36 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 10:54:37 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 10:54:37 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 10:54:38 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 10:54:40 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 10:54:49 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 10:54:56 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 10:55:09 - DEBUG - Loaded 50 files for Davy-Crockett

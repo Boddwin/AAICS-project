@@ -1,0 +1,11 @@
+{
+  "total": 100,
+  "correct": 95,
+  "incorrect": 2,
+  "notmatched": 3,
+  "accuracy": 0.95,
+  "fnmr": 0.03,
+  "fmr": 0.02,
+  "evaluation_time_seconds": 287.1913297176361,
+  "threshold": -25
+}

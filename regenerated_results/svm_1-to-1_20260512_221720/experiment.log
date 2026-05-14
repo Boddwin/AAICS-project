@@ -1,0 +1,8 @@
+2026-05-12 22:17:20 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\svm_1-to-1_20260512_221720\config.json
+2026-05-12 22:17:20 - INFO - ============================================================
+2026-05-12 22:17:20 - INFO - SVM MODEL TRAINING
+2026-05-12 22:17:20 - INFO - ============================================================
+2026-05-12 22:17:22 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:17:22 - INFO - Loaded 10 samples from 10 files
+2026-05-12 22:17:22 - ERROR - SVM requires at least 2 training classes; skipping this dataset
+2026-05-12 22:17:22 - INFO - Metrics saved for stage: training_skipped

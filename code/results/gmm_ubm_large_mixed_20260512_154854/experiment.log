@@ -1,0 +1,21 @@
+2026-05-12 15:48:54 - INFO - 
+======================================================================
+2026-05-12 15:48:54 - INFO - GMM-UBM EXPERIMENT: large_mixed
+2026-05-12 15:48:54 - INFO - ======================================================================
+
+2026-05-12 15:48:54 - INFO - Starting training phase...
+2026-05-12 15:48:54 - INFO - Cleared previous models from speaker_models
+2026-05-12 15:48:54 - INFO - ============================================================
+2026-05-12 15:48:54 - INFO - GMM-UBM MODEL TRAINING
+2026-05-12 15:48:54 - INFO - ============================================================
+2026-05-12 15:48:54 - INFO - Audio files path: ../data/large_mixed\train
+2026-05-12 15:48:54 - INFO - N components: 16
+2026-05-12 15:48:54 - ERROR - Experiment failed: [WinError 3] The system cannot find the path specified: '../data/large_mixed\\train'
+2026-05-12 15:48:54 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\run_experiments.py", line 45, in run_gmm_ubm
+    create_gmm_models(train_path, ubm_folder, models_folder, logger=logger)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\train_models_v2.py", line 61, in create_gmm_models
+    dir_list = os.listdir(audio_files)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: '../data/large_mixed\\train'
+

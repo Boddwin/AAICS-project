@@ -1,0 +1,69 @@
+{
+  "start_time": "2026-05-12T21:54:45.298626",
+  "total_tests": 25,
+  "datasets": [
+    "n-to-n",
+    "1-to-1",
+    "1-to-n",
+    "large_combined",
+    "large_mixed"
+  ],
+  "algorithms": [
+    "SVM",
+    "RandomForest",
+    "KNN",
+    "CNN",
+    "Clustering"
+  ],
+  "dataset_results": {
+    "n-to-n": {
+      "algorithms": {
+        "SVM": "PASS",
+        "RandomForest": "PASS",
+        "KNN": "PASS",
+        "CNN": "PASS",
+        "Clustering": "PASS"
+      }
+    },
+    "1-to-1": {
+      "algorithms": {
+        "SVM": "FAIL",
+        "RandomForest": "PASS",
+        "KNN": "PASS",
+        "CNN": "PASS",
+        "Clustering": "PASS"
+      }
+    },
+    "1-to-n": {
+      "algorithms": {
+        "SVM": "FAIL",
+        "RandomForest": "PASS",
+        "KNN": "PASS",
+        "CNN": "PASS",
+        "Clustering": "PASS"
+      }
+    },
+    "large_combined": {
+      "algorithms": {
+        "SVM": "FAIL",
+        "RandomForest": "FAIL",
+        "KNN": "FAIL",
+        "CNN": "FAIL",
+        "Clustering": "PASS"
+      }
+    },
+    "large_mixed": {
+      "algorithms": {
+        "SVM": "FAIL",
+        "RandomForest": "FAIL",
+        "KNN": "FAIL",
+        "CNN": "FAIL",
+        "Clustering": "PASS"
+      }
+    }
+  },
+  "end_time": "2026-05-12T22:29:12.191607",
+  "success_count": 15,
+  "failed_count": 10,
+  "success_rate": 60.0
+}

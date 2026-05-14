@@ -1,0 +1,12 @@
+{
+  "total": 810,
+  "correct": 244,
+  "incorrect": 566,
+  "notmatched": 0,
+  "accuracy": 0.3012345679012346,
+  "fnmr": 0.0,
+  "fmr": 0.6987654320987654,
+  "evaluation_time_seconds": 83.92231965065002,
+  "stage": "evaluation_complete",
+  "timestamp": "2026-05-12T13:11:38.786580"
+}

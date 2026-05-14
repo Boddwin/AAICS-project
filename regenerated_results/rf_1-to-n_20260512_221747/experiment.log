@@ -1,0 +1,55 @@
+2026-05-12 22:17:47 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\rf_1-to-n_20260512_221747\config.json
+2026-05-12 22:17:47 - INFO - ============================================================
+2026-05-12 22:17:47 - INFO - RANDOM FOREST MODEL TRAINING
+2026-05-12 22:17:47 - INFO - ============================================================
+2026-05-12 22:17:49 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:17:49 - INFO - Loaded 10 samples from 10 files
+2026-05-12 22:17:49 - INFO - Training Random Forest with 200 trees...
+2026-05-12 22:17:50 - INFO - ============================================================
+2026-05-12 22:17:50 - INFO - TRAINING SUMMARY
+2026-05-12 22:17:50 - INFO - ============================================================
+2026-05-12 22:17:50 - INFO - Speakers:              1
+2026-05-12 22:17:50 - INFO - Training samples:      10
+2026-05-12 22:17:50 - INFO - Feature dimension:     40
+2026-05-12 22:17:50 - INFO - Trees:                 200
+2026-05-12 22:17:50 - INFO - Training time:         2.21s
+2026-05-12 22:17:50 - INFO - ============================================================
+2026-05-12 22:17:50 - INFO - Metrics saved for stage: training_complete
+2026-05-12 22:17:50 - INFO - ============================================================
+2026-05-12 22:17:50 - INFO - RANDOM FOREST MODEL EVALUATION
+2026-05-12 22:17:50 - INFO - ============================================================
+2026-05-12 22:17:51 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:18:08 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 22:18:22 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 22:18:31 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 22:18:43 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 22:18:56 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 22:19:04 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 22:19:05 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 22:19:05 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 22:19:06 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 22:19:07 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 22:19:08 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 22:19:09 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 22:19:11 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 22:19:21 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 22:19:28 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 22:19:41 - DEBUG - Loaded 50 files for Davy-Crockett
+2026-05-12 22:19:41 - INFO - Loaded 694 test samples
+2026-05-12 22:19:41 - INFO - ============================================================
+2026-05-12 22:19:41 - INFO - EVALUATION SUMMARY
+2026-05-12 22:19:41 - INFO - ============================================================
+2026-05-12 22:19:41 - INFO - Total processed:       694
+2026-05-12 22:19:41 - INFO - Known speaker samples: 10
+2026-05-12 22:19:41 - INFO - Unknown speaker samples: 684
+2026-05-12 22:19:41 - INFO - Correct predictions:   10
+2026-05-12 22:19:41 - INFO - Incorrect predictions: 684
+2026-05-12 22:19:41 - INFO - False accepts:         684
+2026-05-12 22:19:41 - INFO - False rejects:         0
+2026-05-12 22:19:41 - INFO - Accuracy:              0.0144 (1.44%)
+2026-05-12 22:19:41 - INFO - FNMR:                  0.0000
+2026-05-12 22:19:41 - INFO - FMR:                   1.0000
+2026-05-12 22:19:41 - INFO - Evaluation time:       111.71s
+2026-05-12 22:19:41 - INFO - ============================================================
+2026-05-12 22:19:41 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 22:19:41 - INFO - Summary saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\rf_1-to-n_20260512_221747\summary.json

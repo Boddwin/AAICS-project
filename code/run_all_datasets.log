@@ -1,0 +1,315 @@
+2026-05-11 16:47:12 - INFO - 
+======================================================================
+2026-05-11 16:47:12 - INFO - GMM-UBM EXPERIMENT: 1-to-1
+2026-05-11 16:47:12 - INFO - ======================================================================
+
+2026-05-11 16:47:12 - INFO - Starting training phase...
+2026-05-11 16:47:12 - INFO - Cleared previous models from speaker_models
+2026-05-11 16:47:12 - INFO - Cleared previous UBM from ubm_model
+2026-05-11 16:47:12 - INFO - ============================================================
+2026-05-11 16:47:12 - INFO - GMM-UBM MODEL TRAINING
+2026-05-11 16:47:12 - INFO - ============================================================
+2026-05-11 16:47:12 - INFO - Audio files path: ../data/1-to-1\train
+2026-05-11 16:47:12 - INFO - N components: 16
+2026-05-11 16:47:18 - INFO - [OK] Model trained: Action-potential | Features: (9990, 40) | Audio files: 10
+2026-05-11 16:47:19 - INFO - [OK] UBM trained | Features: (9990, 40)
+2026-05-11 16:47:19 - INFO - ============================================================
+2026-05-11 16:47:19 - INFO - TRAINING SUMMARY
+2026-05-11 16:47:19 - INFO - ============================================================
+2026-05-11 16:47:19 - INFO - Speakers trained:    1
+2026-05-11 16:47:19 - INFO - Audio files:         10
+2026-05-11 16:47:19 - INFO - Total features:      54945
+2026-05-11 16:47:19 - INFO - Training time:       7.59s
+2026-05-11 16:47:19 - INFO - ============================================================
+2026-05-11 16:47:19 - INFO - Metrics saved for stage: training_complete
+2026-05-11 16:47:19 - INFO - Summary saved: results\gmm_ubm_1-to-1_20260511_164712\summary.json
+2026-05-11 16:47:19 - INFO - Starting testing phase...
+2026-05-11 16:47:19 - INFO - ============================================================
+2026-05-11 16:47:19 - INFO - GMM-UBM MODEL EVALUATION
+2026-05-11 16:47:19 - INFO - ============================================================
+2026-05-11 16:47:19 - INFO - Models folder: speaker_models
+2026-05-11 16:47:19 - INFO - Test folder: ../data/1-to-1\test
+2026-05-11 16:47:19 - INFO - Threshold: -25
+2026-05-11 16:47:19 - INFO - [OK] Loaded 1 speaker models
+2026-05-11 16:47:19 - INFO - [OK] Loaded UBM model
+2026-05-11 16:47:22 - INFO - [OK] CORRECT: Action-potential -> Action-potential (LLR=   0.06, GMM= -23.31)
+2026-05-11 16:47:22 - INFO - ============================================================
+2026-05-11 16:47:22 - INFO - EVALUATION SUMMARY
+2026-05-11 16:47:22 - INFO - ============================================================
+2026-05-11 16:47:22 - INFO - Total processed:       1
+2026-05-11 16:47:22 - INFO - Correct matches:       1
+2026-05-11 16:47:22 - INFO - Incorrect matches:     0
+2026-05-11 16:47:22 - INFO - No match found:        0
+2026-05-11 16:47:22 - INFO - Accuracy:              1.0000 (100.00%)
+2026-05-11 16:47:22 - INFO - FNMR:                  0.0000
+2026-05-11 16:47:22 - INFO - FMR:                   0.0000
+2026-05-11 16:47:22 - INFO - Evaluation time:       2.33s
+2026-05-11 16:47:22 - INFO - ============================================================
+2026-05-11 16:47:22 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-11 16:47:22 - INFO - Summary saved: results\gmm_ubm_1-to-1_20260511_164712\summary.json
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 31: character maps to <undefined>
+Call stack:
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\run_experiments.py", line 163, in <module>
+    runner.run_all_datasets()
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\run_experiments.py", line 105, in run_all_datasets
+    success = self.run_gmm_ubm(
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\run_experiments.py", line 70, in run_gmm_ubm
+    logger.info("\n\u2713 GMM-UBM experiment completed successfully\n")
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\..\utils\logging_utils.py", line 65, in info
+    self.logger.info(message)
+Message: '\n\u2713 GMM-UBM experiment completed successfully\n'
+Arguments: ()
+2026-05-11 16:47:22 - INFO - 
+\u2713 GMM-UBM experiment completed successfully
+
+2026-05-11 16:47:22 - INFO - 
+======================================================================
+2026-05-11 16:47:22 - INFO - GMM-UBM EXPERIMENT: 1-to-n
+2026-05-11 16:47:22 - INFO - ======================================================================
+
+2026-05-11 16:47:22 - INFO - Starting training phase...
+2026-05-11 16:47:22 - INFO - Cleared previous models from speaker_models
+2026-05-11 16:47:22 - INFO - Cleared previous UBM from ubm_model
+2026-05-11 16:47:22 - INFO - ============================================================
+2026-05-11 16:47:22 - INFO - GMM-UBM MODEL TRAINING
+2026-05-11 16:47:22 - INFO - ============================================================
+2026-05-11 16:47:22 - INFO - Audio files path: ../data/1-to-n\train
+2026-05-11 16:47:22 - INFO - N components: 16
+2026-05-11 16:47:26 - INFO - [OK] Model trained: Action-potential | Features: (9990, 40) | Audio files: 10
+2026-05-11 16:47:27 - INFO - [OK] UBM trained | Features: (9990, 40)
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - TRAINING SUMMARY
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - Speakers trained:    1
+2026-05-11 16:47:27 - INFO - Audio files:         10
+2026-05-11 16:47:27 - INFO - Total features:      54945
+2026-05-11 16:47:27 - INFO - Training time:       4.92s
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - Metrics saved for stage: training_complete
+2026-05-11 16:47:27 - INFO - Summary saved: results\gmm_ubm_1-to-n_20260511_164722\summary.json
+2026-05-11 16:47:27 - INFO - Starting testing phase...
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - GMM-UBM MODEL EVALUATION
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - Models folder: speaker_models
+2026-05-11 16:47:27 - INFO - Test folder: ../data/1-to-n\test
+2026-05-11 16:47:27 - INFO - Threshold: -25
+2026-05-11 16:47:27 - INFO - [OK] Loaded 1 speaker models
+2026-05-11 16:47:27 - INFO - [OK] Loaded UBM model
+2026-05-11 16:47:29 - INFO - - NO MATCH: Action-potential -> Action-potential (LLR=  -0.02, GMM= -23.34)
+2026-05-11 16:47:52 - INFO - - NO MATCH: Adrianne-Wadewitz -> Action-potential (LLR=   0.17, GMM= -27.93)
+2026-05-11 16:48:08 - INFO - - NO MATCH: Air-tractor_sledge -> Action-potential (LLR=  -0.02, GMM= -29.22)
+2026-05-11 16:48:16 - INFO - - NO MATCH: Alan-Harper_(Two_and_a_Half_Men) -> Action-potential (LLR=   0.22, GMM= -28.27)
+2026-05-11 16:48:32 - INFO - - NO MATCH: Ali-G           -> Action-potential (LLR=   0.17, GMM= -26.59)
+2026-05-11 16:48:48 - INFO - - NO MATCH: Alleyway-1      -> Action-potential (LLR=   0.33, GMM= -29.26)
+2026-05-11 16:48:57 - INFO - - NO MATCH: Ana-Lucia_Cortez -> Action-potential (LLR=   0.13, GMM= -28.16)
+2026-05-11 16:48:57 - INFO - - NO MATCH: anthonyschaller-20071221- -> Action-potential (LLR=   0.46, GMM= -29.88)
+2026-05-11 16:48:58 - INFO - - NO MATCH: Apple_Eater-20091026-yul -> Action-potential (LLR=   0.65, GMM= -34.72)
+2026-05-11 16:49:00 - INFO - - NO MATCH: Ara-20091021-wpl -> Action-potential (LLR=   0.26, GMM= -30.74)
+2026-05-11 16:49:01 - INFO - - NO MATCH: Ara2-20-vni     -> Action-potential (LLR=   0.49, GMM= -31.50)
+2026-05-11 16:49:02 - INFO - - NO MATCH: atamur-20090211-wdo -> Action-potential (LLR=   0.18, GMM= -32.76)
+2026-05-11 16:49:03 - INFO - - NO MATCH: ataru80-20120624-hfe -> Action-potential (LLR=   0.32, GMM= -31.93)
+2026-05-11 16:49:06 - INFO - - NO MATCH: atterer-01202007-b -> Action-potential (LLR=   0.42, GMM= -32.77)
+2026-05-11 16:49:18 - INFO - - NO MATCH: Baden-Powell_House -> Action-potential (LLR=   0.05, GMM= -29.06)
+2026-05-11 16:49:28 - INFO - - NO MATCH: Beverage-can_stove -> Action-potential (LLR=  -0.06, GMM= -26.78)
+2026-05-11 16:49:45 - INFO - - NO MATCH: Davy-Crockett   -> Action-potential (LLR=   0.38, GMM= -25.01)
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - EVALUATION SUMMARY
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - Total processed:       17
+2026-05-11 16:49:45 - INFO - Correct matches:       0
+2026-05-11 16:49:45 - INFO - Incorrect matches:     0
+2026-05-11 16:49:45 - INFO - No match found:        17
+2026-05-11 16:49:45 - INFO - Accuracy:              0.0000 (0.00%)
+2026-05-11 16:49:45 - INFO - FNMR:                  1.0000
+2026-05-11 16:49:45 - INFO - FMR:                   0.0000
+2026-05-11 16:49:45 - INFO - Evaluation time:       138.23s
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-11 16:49:45 - INFO - Summary saved: results\gmm_ubm_1-to-n_20260511_164722\summary.json
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 31: character maps to <undefined>
+Call stack:
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\run_experiments.py", line 163, in <module>
+    runner.run_all_datasets()
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\run_experiments.py", line 105, in run_all_datasets
+    success = self.run_gmm_ubm(
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\run_experiments.py", line 70, in run_gmm_ubm
+    logger.info("\n[OK] GMM-UBM experiment completed successfully\n")
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\code\..\utils\logging_utils.py", line 65, in info
+    self.logger.info(message)
+Message: '\n\u2713 GMM-UBM experiment completed successfully\n'
+Arguments: ()
+2026-05-11 16:49:45 - INFO - 
+\u2713 GMM-UBM experiment completed successfully
+
+2026-05-11 16:49:45 - INFO - 
+======================================================================
+2026-05-11 16:49:45 - INFO - GMM-UBM EXPERIMENT: n-to-n
+2026-05-11 16:49:45 - INFO - ======================================================================
+
+2026-05-11 16:49:45 - INFO - Starting training phase...
+2026-05-11 16:49:45 - INFO - Cleared previous models from speaker_models
+2026-05-11 16:49:45 - INFO - Cleared previous UBM from ubm_model
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - GMM-UBM MODEL TRAINING
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - Audio files path: ../data/n-to-n\train
+2026-05-11 16:49:45 - INFO - N components: 16
+2026-05-11 16:49:47 - INFO - [OK] Model trained: 103-i103 | Features: (7565, 40) | Audio files: 5
+2026-05-11 16:49:49 - INFO - [OK] Model trained: 1034-a1034 | Features: (5722, 40) | Audio files: 5
+2026-05-11 16:49:50 - INFO - [OK] Model trained: 1040-b1040 | Features: (5970, 40) | Audio files: 5
+2026-05-11 16:49:52 - INFO - [OK] Model trained: 1069-c1069 | Features: (7236, 40) | Audio files: 5
+2026-05-11 16:49:53 - INFO - [OK] Model trained: 1081-d1081 | Features: (5877, 40) | Audio files: 5
+2026-05-11 16:49:55 - INFO - [OK] Model trained: 118-a118 | Features: (5716, 40) | Audio files: 5
+2026-05-11 16:49:56 - INFO - [OK] Model trained: 125-a125 | Features: (5079, 40) | Audio files: 5
+2026-05-11 16:49:58 - INFO - [OK] Model trained: 19-a19 | Features: (5293, 40) | Audio files: 5
+2026-05-11 16:49:59 - INFO - [OK] Model trained: 26-b26 | Features: (6075, 40) | Audio files: 5
+2026-05-11 16:50:01 - INFO - [OK] Model trained: 27-c27 | Features: (6013, 40) | Audio files: 5
+2026-05-11 16:50:04 - INFO - [OK] Model trained: 32-d32 | Features: (6876, 40) | Audio files: 5
+2026-05-11 16:50:05 - INFO - [OK] Model trained: 39-e39 | Features: (4950, 40) | Audio files: 5
+2026-05-11 16:50:07 - INFO - [OK] Model trained: 40-f40 | Features: (6729, 40) | Audio files: 5
+2026-05-11 16:50:08 - INFO - [OK] Model trained: 60-g60 | Features: (5624, 40) | Audio files: 5
+2026-05-11 16:50:10 - INFO - [OK] Model trained: 78-h78 | Features: (6868, 40) | Audio files: 5
+2026-05-11 16:50:11 - INFO - [OK] Model trained: 83-f83 | Features: (6021, 40) | Audio files: 5
+2026-05-11 16:50:13 - INFO - [OK] Model trained: 87-g87 | Features: (7090, 40) | Audio files: 5
+2026-05-11 16:50:15 - INFO - [OK] Model trained: 89-h89 | Features: (6153, 40) | Audio files: 5
+2026-05-11 16:50:24 - INFO - [OK] Model trained: Action-potential | Features: (29970, 40) | Audio files: 30
+2026-05-11 16:50:40 - INFO - [OK] Model trained: Adrianne-Wadewitz | Features: (59970, 40) | Audio files: 30
+2026-05-11 16:50:53 - INFO - [OK] Model trained: Air-tractor_sledge | Features: (45954, 40) | Audio files: 46
+2026-05-11 16:51:00 - INFO - [OK] Model trained: Alan-Harper_(Two_and_a_Half_Men) | Features: (27986, 40) | Audio files: 14
+2026-05-11 16:51:14 - INFO - [OK] Model trained: Ali-G | Features: (43956, 40) | Audio files: 44
+2026-05-11 16:51:30 - INFO - [OK] Model trained: Alleyway-1 | Features: (44955, 40) | Audio files: 45
+2026-05-11 16:51:39 - INFO - [OK] Model trained: Ana-Lucia_Cortez | Features: (25974, 40) | Audio files: 26
+2026-05-11 16:51:40 - INFO - [OK] Model trained: anthonyschaller-20071221- | Features: (1595, 40) | Audio files: 5
+2026-05-11 16:51:41 - INFO - [OK] Model trained: Apple_Eater-20091026-yul | Features: (2077, 40) | Audio files: 5
+2026-05-11 16:51:42 - INFO - [OK] Model trained: Ara-20091021-wpl | Features: (4044, 40) | Audio files: 5
+2026-05-11 16:51:43 - INFO - [OK] Model trained: Ara2-20-vni | Features: (3644, 40) | Audio files: 5
+2026-05-11 16:51:44 - INFO - [OK] Model trained: argail-20090722-gau | Features: (2468, 40) | Audio files: 5
+2026-05-11 16:51:45 - INFO - [OK] Model trained: ariyan-20120801-gra | Features: (2506, 40) | Audio files: 5
+2026-05-11 16:51:46 - INFO - [OK] Model trained: arjuan-20100820-acz | Features: (2707, 40) | Audio files: 5
+2026-05-11 16:51:48 - INFO - [OK] Model trained: armond-20121229-wca | Features: (5331, 40) | Audio files: 5
+2026-05-11 16:51:49 - INFO - [OK] Model trained: Artem-20121123-ebd | Features: (2794, 40) | Audio files: 5
+2026-05-11 16:51:50 - INFO - [OK] Model trained: arthur-20130509-yjj | Features: (3782, 40) | Audio files: 5
+2026-05-11 16:51:51 - INFO - [OK] Model trained: artk-20101225-kvd | Features: (3369, 40) | Audio files: 5
+2026-05-11 16:51:52 - INFO - [OK] Model trained: arun-20100928-usw | Features: (3031, 40) | Audio files: 5
+2026-05-11 16:51:53 - INFO - [OK] Model trained: arvala-20110103-nlb | Features: (2718, 40) | Audio files: 5
+2026-05-11 16:51:54 - INFO - [OK] Model trained: asalkeld-20111226-ets | Features: (3294, 40) | Audio files: 5
+2026-05-11 16:51:55 - INFO - [OK] Model trained: asladic-20100311-bfp | Features: (1743, 40) | Audio files: 5
+2026-05-11 16:51:56 - INFO - [OK] Model trained: AslakKnutsen-20140314-bje | Features: (2444, 40) | Audio files: 5
+2026-05-11 16:51:57 - INFO - [OK] Model trained: AslakKnutsen-20140314-crb | Features: (2419, 40) | Audio files: 5
+2026-05-11 16:51:58 - INFO - [OK] Model trained: asp-20091228-inn | Features: (2556, 40) | Audio files: 5
+2026-05-11 16:51:59 - INFO - [OK] Model trained: asp-20091228-qtl | Features: (2506, 40) | Audio files: 5
+2026-05-11 16:52:00 - INFO - [OK] Model trained: AT-20130718-lws | Features: (2694, 40) | Audio files: 5
+2026-05-11 16:52:01 - INFO - [OK] Model trained: atamur-20090211-wdo | Features: (2056, 40) | Audio files: 5
+2026-05-11 16:52:02 - INFO - [OK] Model trained: ataru80-20120624-hfe | Features: (2831, 40) | Audio files: 5
+2026-05-11 16:52:06 - INFO - [OK] Model trained: atterer-01202007-a | Features: (9348, 40) | Audio files: 16
+2026-05-11 16:52:09 - INFO - [OK] Model trained: atterer-01202007-b | Features: (9558, 40) | Audio files: 20
+2026-05-11 16:52:10 - INFO - [OK] Model trained: audioodyssey-20081109-rew | Features: (3219, 40) | Audio files: 5
+2026-05-11 16:52:14 - INFO - [OK] Model trained: avsa242-20071208 | Features: (10904, 40) | Audio files: 20
+2026-05-11 16:52:15 - INFO - [OK] Model trained: ax-20150219-yhd | Features: (2719, 40) | Audio files: 5
+2026-05-11 16:52:16 - INFO - [OK] Model trained: axllaruse-20140112-ced | Features: (3381, 40) | Audio files: 5
+2026-05-11 16:52:17 - INFO - [OK] Model trained: azmisov-20140428-cyp | Features: (2195, 40) | Audio files: 5
+2026-05-11 16:52:19 - INFO - [OK] Model trained: B-20091220-vus | Features: (2042, 40) | Audio files: 5
+2026-05-11 16:52:19 - INFO - [OK] Model trained: bachroxx-20080119-tuu | Features: (1955, 40) | Audio files: 5
+2026-05-11 16:52:32 - INFO - [OK] Model trained: Baden-Powell_House | Features: (34965, 40) | Audio files: 35
+2026-05-11 16:52:34 - INFO - [OK] Model trained: bae-20110617-vdq | Features: (2719, 40) | Audio files: 5
+2026-05-11 16:52:35 - INFO - [OK] Model trained: Bahoke-20130721-brs | Features: (2194, 40) | Audio files: 5
+2026-05-11 16:52:37 - INFO - [OK] Model trained: Bareford-20101110-qkl | Features: (2844, 40) | Audio files: 5
+2026-05-11 16:52:38 - INFO - [OK] Model trained: bart-20090807-ufp | Features: (2079, 40) | Audio files: 5
+2026-05-11 16:52:39 - INFO - [OK] Model trained: Bassel-20120209-xky | Features: (2831, 40) | Audio files: 5
+2026-05-11 16:52:41 - INFO - [OK] Model trained: bdutta-20090502-crj | Features: (2543, 40) | Audio files: 5
+2026-05-11 16:52:42 - INFO - [OK] Model trained: beady-20100219-xpq | Features: (2409, 40) | Audio files: 5
+2026-05-11 16:52:43 - INFO - [OK] Model trained: bebe-20100419-gpw | Features: (1669, 40) | Audio files: 5
+2026-05-11 16:52:44 - INFO - [OK] Model trained: becz03-20121205-xvx | Features: (2869, 40) | Audio files: 5
+2026-05-11 16:52:45 - INFO - [OK] Model trained: belmontguy-20110426-geu | Features: (2594, 40) | Audio files: 5
+2026-05-11 16:52:46 - INFO - [OK] Model trained: ben-20090326-cpr | Features: (2231, 40) | Audio files: 5
+2026-05-11 16:52:47 - INFO - [OK] Model trained: bencoder-20080418-iev | Features: (2152, 40) | Audio files: 5
+2026-05-11 16:52:48 - INFO - [OK] Model trained: bendauphinee-20100423-dtj | Features: (2256, 40) | Audio files: 5
+2026-05-11 16:52:49 - INFO - [OK] Model trained: bendra-20141108-xnz | Features: (2857, 40) | Audio files: 5
+2026-05-11 16:52:50 - INFO - [OK] Model trained: bennmann-20091102-apc | Features: (2055, 40) | Audio files: 5
+2026-05-11 16:52:51 - INFO - [OK] Model trained: benob-20090314-wzw | Features: (2332, 40) | Audio files: 5
+2026-05-11 16:52:52 - INFO - [OK] Model trained: benoliver999-20100207-euk | Features: (2043, 40) | Audio files: 5
+2026-05-11 16:52:53 - INFO - [OK] Model trained: Berrym-20101102-aiv | Features: (3031, 40) | Audio files: 5
+2026-05-11 16:53:03 - INFO - [OK] Model trained: Beverage-can_stove | Features: (29970, 40) | Audio files: 30
+2026-05-11 16:53:04 - INFO - [OK] Model trained: BFG-20120316-bdl | Features: (2607, 40) | Audio files: 5
+2026-05-11 16:53:05 - INFO - [OK] Model trained: bhart-20100106-djk | Features: (2432, 40) | Audio files: 5
+2026-05-11 16:53:06 - INFO - [OK] Model trained: bhavanikrishna-20100108-kth | Features: (3043, 40) | Audio files: 5
+2026-05-11 16:53:08 - INFO - [OK] Model trained: BhushanNKIITBombay-20140219-bbj | Features: (4030, 40) | Audio files: 5
+2026-05-11 16:53:09 - INFO - [OK] Model trained: bhuvan-20091111-cil | Features: (3263, 40) | Audio files: 5
+2026-05-11 16:53:10 - INFO - [OK] Model trained: bigmbywater-20100821-atk | Features: (2156, 40) | Audio files: 5
+2026-05-11 16:53:11 - INFO - [OK] Model trained: BigMick-20090919-pvv | Features: (1967, 40) | Audio files: 5
+2026-05-11 16:53:12 - INFO - [OK] Model trained: BillMorgan-20120306-aef | Features: (3406, 40) | Audio files: 5
+2026-05-11 16:53:13 - INFO - [OK] Model trained: Bitbrit-20090528-fsw | Features: (1894, 40) | Audio files: 5
+2026-05-11 16:53:15 - INFO - [OK] Model trained: Blackdrive-20080605-vwx | Features: (2494, 40) | Audio files: 5
+2026-05-11 16:53:16 - INFO - [OK] Model trained: Blenderkitty-20090615-qcv | Features: (2206, 40) | Audio files: 5
+2026-05-11 16:53:17 - INFO - [OK] Model trained: BlindPilot-20100610-ama | Features: (3018, 40) | Audio files: 5
+2026-05-11 16:53:18 - INFO - [OK] Model trained: blood-20100308-gbb | Features: (2606, 40) | Audio files: 5
+2026-05-11 16:53:19 - INFO - [OK] Model trained: bloomtom-20080612-mvm | Features: (1727, 40) | Audio files: 5
+2026-05-11 16:53:20 - INFO - [OK] Model trained: BlueAgent-20120819-dok | Features: (2193, 40) | Audio files: 5
+2026-05-11 16:53:21 - INFO - [OK] Model trained: BlueB-20090727-ckj | Features: (1335, 40) | Audio files: 5
+2026-05-11 16:53:25 - INFO - [OK] Model trained: bluefox83-20080413-bwq | Features: (7464, 40) | Audio files: 13
+2026-05-11 16:53:26 - INFO - [OK] Model trained: bluepeppers-20091030-kqs | Features: (2843, 40) | Audio files: 5
+2026-05-11 16:53:27 - INFO - [OK] Model trained: bluSch-20100525-bqg | Features: (2196, 40) | Audio files: 5
+2026-05-11 16:53:28 - INFO - [OK] Model trained: Bob-20100106-mwu | Features: (2257, 40) | Audio files: 5
+2026-05-11 16:53:29 - INFO - [OK] Model trained: BobHallstrom-20150105-tmy | Features: (5156, 40) | Audio files: 5
+2026-05-11 16:53:30 - INFO - [OK] Model trained: bobriva123-20100611-cuz | Features: (3049, 40) | Audio files: 4
+2026-05-11 16:53:31 - INFO - [OK] Model trained: bonzer-20090919-btg | Features: (1794, 40) | Audio files: 5
+2026-05-11 16:53:46 - INFO - [OK] Model trained: Davy-Crockett | Features: (49975, 40) | Audio files: 25
+2026-05-11 16:55:04 - INFO - [OK] UBM trained | Features: (721306, 40)
+2026-05-11 16:55:04 - INFO - ============================================================
+2026-05-11 16:55:04 - INFO - TRAINING SUMMARY
+2026-05-11 16:55:04 - INFO - ============================================================
+2026-05-11 16:55:04 - INFO - Speakers trained:    100
+2026-05-11 16:55:04 - INFO - Audio files:         823
+2026-05-11 16:55:04 - INFO - Total features:      8017121
+2026-05-11 16:55:04 - INFO - Training time:       319.37s
+2026-05-11 16:55:04 - INFO - ============================================================
+2026-05-11 16:55:04 - INFO - Metrics saved for stage: training_complete
+2026-05-11 16:55:04 - INFO - Summary saved: results\gmm_ubm_n-to-n_20260511_164945\summary.json
+2026-05-11 16:55:04 - INFO - Starting testing phase...
+2026-05-11 16:55:04 - INFO - ============================================================
+2026-05-11 16:55:04 - INFO - GMM-UBM MODEL EVALUATION
+2026-05-11 16:55:04 - INFO - ============================================================
+2026-05-11 16:55:04 - INFO - Models folder: speaker_models
+2026-05-11 16:55:04 - INFO - Test folder: ../data/n-to-n\test
+2026-05-11 16:55:04 - INFO - Threshold: -25
+2026-05-11 16:55:06 - INFO - [OK] Loaded 100 speaker models
+2026-05-11 16:55:06 - INFO - [OK] Loaded UBM model
+2026-05-11 16:55:09 - INFO - [OK] CORRECT: 103-i103        -> 103-i103        (LLR=   3.57, GMM= -23.60)
+2026-05-11 16:55:11 - INFO - [OK] CORRECT: 1034-a1034      -> 1034-a1034      (LLR=   1.47, GMM= -24.12)
+2026-05-11 16:55:13 - INFO - - NO MATCH: 1040-b1040      -> 1040-b1040      (LLR=   1.93, GMM= -25.03)
+2026-05-11 16:55:16 - INFO - [OK] CORRECT: 1069-c1069      -> 1069-c1069      (LLR=   3.16, GMM= -23.75)
+2026-05-11 16:55:17 - INFO - [OK] CORRECT: 1081-d1081      -> 1081-d1081      (LLR=   3.20, GMM= -21.52)
+2026-05-11 16:55:20 - INFO - [OK] CORRECT: 118-a118        -> 118-a118        (LLR=   2.64, GMM= -22.93)
+2026-05-11 16:55:21 - INFO - [OK] CORRECT: 125-a125        -> 125-a125        (LLR=   2.38, GMM= -23.24)
+2026-05-11 16:55:23 - INFO - [OK] CORRECT: 19-a19          -> 19-a19          (LLR=   2.64, GMM= -22.18)
+2026-05-11 16:55:26 - INFO - [OK] CORRECT: 26-b26          -> 26-b26          (LLR=   2.94, GMM= -24.30)
+2026-05-11 16:55:28 - INFO - [OK] CORRECT: 27-c27          -> 27-c27          (LLR=   2.44, GMM= -24.47)
+2026-05-11 16:55:30 - INFO - [OK] CORRECT: 32-d32          -> 32-d32          (LLR=   3.55, GMM= -23.98)
+2026-05-11 16:55:32 - INFO - [OK] CORRECT: 39-e39          -> 39-e39          (LLR=   3.68, GMM= -21.75)
+2026-05-11 16:55:35 - INFO - [OK] CORRECT: 40-f40          -> 40-f40          (LLR=   3.87, GMM= -22.42)
+2026-05-11 16:55:37 - INFO - [OK] CORRECT: 60-g60          -> 60-g60          (LLR=   3.49, GMM= -23.48)
+2026-05-11 16:55:39 - INFO - [OK] CORRECT: 78-h78          -> 78-h78          (LLR=   1.74, GMM= -23.69)
+2026-05-11 16:55:42 - INFO - [OK] CORRECT: 83-f83          -> 83-f83          (LLR=   3.27, GMM= -23.59)
+2026-05-11 16:55:44 - INFO - [OK] CORRECT: 87-g87          -> 87-g87          (LLR=   3.00, GMM= -24.47)
+2026-05-11 16:55:47 - INFO - [OK] CORRECT: 89-h89          -> 89-h89          (LLR=   3.60, GMM= -23.09)
+2026-05-11 16:56:00 - INFO - [OK] CORRECT: Action-potential -> Action-potential (LLR=   3.37, GMM= -23.58)
+2026-05-11 16:56:27 - INFO - [OK] CORRECT: Adrianne-Wadewitz -> Adrianne-Wadewitz (LLR=   3.97, GMM= -15.41)
+2026-05-11 16:56:48 - INFO - [OK] CORRECT: Air-tractor_sledge -> Air-tractor_sledge (LLR=   2.87, GMM= -22.71)
+2026-05-11 16:56:58 - INFO - [OK] CORRECT: Alan-Harper_(Two_and_a_Half_Men) -> Alan-Harper_(Two_and_a_Half_Men) (LLR=   5.02, GMM= -17.45)

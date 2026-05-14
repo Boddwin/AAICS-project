@@ -1,0 +1,7 @@
+2026-05-12 12:35:45 - INFO - Config saved: results\svm_1-to-1_20260512_123545\config.json
+2026-05-12 12:35:45 - INFO - ============================================================
+2026-05-12 12:35:45 - INFO - SVM MODEL TRAINING
+2026-05-12 12:35:45 - INFO - ============================================================
+2026-05-12 12:35:48 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 12:35:48 - INFO - Loaded 10 samples from 10 files
+2026-05-12 12:35:48 - INFO - Training SVM classifier...

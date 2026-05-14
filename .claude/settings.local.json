@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Chris Boddy\\\\OneDrive\\\\Documents\\\\Cyber Security and Digital Forensics MSc\\\\Applications of Artificial Intelligence in Cyber Security\\\\Assessment\\\\project\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)"
+    ]
+  }
+}

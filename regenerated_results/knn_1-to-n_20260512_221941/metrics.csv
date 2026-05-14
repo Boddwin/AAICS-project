@@ -1,0 +1,3 @@
+stage,timestamp,speakers,training_samples,feature_dimension,training_time_seconds,total,correct,incorrect,notmatched,accuracy,fnmr,fmr,known_total,unknown_total,correct_accepts,correct_rejects,false_accepts,false_rejects,misidentified_known,open_set,evaluation_time_seconds
+training_complete,2026-05-12T22:19:43.469331,1,10,40,1.5571720600128174,,,,,,,,,,,,,,,,
+evaluation_complete,2026-05-12T22:21:26.946168,,,,,694,10,684,0,0.01440922190201729,0.0,1.0,10,684,10,0,684,0,0,True,103.47397518157959

@@ -1,0 +1,22 @@
+2026-05-12 22:25:08 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\clustering_large_combined_20260512_222508\config.json
+2026-05-12 22:25:08 - INFO - ============================================================
+2026-05-12 22:25:08 - INFO - CLUSTERING (K-MEANS) MODEL
+2026-05-12 22:25:08 - INFO - ============================================================
+2026-05-12 22:25:08 - INFO - ============================================================
+2026-05-12 22:25:08 - INFO - SEGMENT-LEVEL CLUSTERING (K-MEANS)
+2026-05-12 22:25:08 - INFO - ============================================================
+2026-05-12 22:26:49 - INFO - Loaded 1293 segments
+2026-05-12 22:26:49 - INFO - Feature dimension: 40
+2026-05-12 22:26:49 - INFO - Running K-Means with k=3...
+2026-05-12 22:26:49 - INFO - ============================================================
+2026-05-12 22:26:49 - INFO - SEGMENT CLUSTERING SUMMARY
+2026-05-12 22:26:49 - INFO - ============================================================
+2026-05-12 22:26:49 - INFO - Clusters:                3
+2026-05-12 22:26:49 - INFO - Segments:                1293
+2026-05-12 22:26:49 - INFO - Source files:            1
+2026-05-12 22:26:49 - INFO - Skipped files/segments:  0
+2026-05-12 22:26:49 - INFO - Silhouette Score:        0.0665
+2026-05-12 22:26:49 - INFO - Clustering time:         100.68s
+2026-05-12 22:26:49 - INFO - ============================================================
+2026-05-12 22:26:49 - INFO - Metrics saved for stage: segment_clustering_complete
+2026-05-12 22:26:49 - INFO - Summary saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\clustering_large_combined_20260512_222508\summary.json

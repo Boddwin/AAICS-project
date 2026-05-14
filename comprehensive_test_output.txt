@@ -1,0 +1,36 @@
+
+======================================================================
+COMPREHENSIVE ALGORITHM TEST SUITE
+======================================================================
+Start Time: 2026-05-12 10:26:46
+Datasets: 5 | Algorithms: 5
+Total Tests: 25
+======================================================================
+
+
+######################################################################
+DATASET 1/5: N-TO-N
+######################################################################
+
+[1/25] [1/5] [1/5]
+
+======================================================================
+Testing SVM on n-to-n
+======================================================================
+
+STDERR: Traceback (most recent call last):
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\run_all_algorithms.py", line 17, in <module>
+    from experiments.svm_v2 import train_svm, evaluate_svm
+ModuleNotFoundError: No module named 'experiments.svm_v2'
+
+Traceback (most recent call last):
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\comprehensive_test_runner.py", line 129, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\comprehensive_test_runner.py", line 94, in main
+    print(f"\u2717 {algorithm.upper()} FAILED on {dataset_name}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2717' in position 0: character maps to <undefined>

@@ -1,0 +1,3 @@
+classes,training_samples,epochs,training_time_seconds,stage,timestamp
+1,10,30,12.093007564544678,training_complete,2026-05-12T10:49:30.872888
+10,10,0,0,1.0,0.0,0.0,1.591005802154541,evaluation_complete,2026-05-12T10:49:32.466736

@@ -1,0 +1,6 @@
+{
+  "dataset": "1-to-1",
+  "algorithm": "GMM-UBM",
+  "n_components": 16,
+  "covariance_type": "diag"
+}

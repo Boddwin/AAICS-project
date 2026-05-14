@@ -1,0 +1,237 @@
+2026-05-12 14:17:34 - INFO - 
+======================================================================
+2026-05-12 14:17:34 - INFO - Random Forest: n-to-n
+2026-05-12 14:17:34 - INFO - ======================================================================
+
+2026-05-12 14:17:34 - INFO - ============================================================
+2026-05-12 14:17:34 - INFO - RANDOM FOREST MODEL TRAINING
+2026-05-12 14:17:34 - INFO - ============================================================
+2026-05-12 14:17:35 - DEBUG - Loaded 5 files for 103-i103
+2026-05-12 14:17:36 - DEBUG - Loaded 5 files for 1034-a1034
+2026-05-12 14:17:37 - DEBUG - Loaded 5 files for 1040-b1040
+2026-05-12 14:17:38 - DEBUG - Loaded 5 files for 1069-c1069
+2026-05-12 14:17:39 - DEBUG - Loaded 5 files for 1081-d1081
+2026-05-12 14:17:40 - DEBUG - Loaded 5 files for 118-a118
+2026-05-12 14:17:41 - DEBUG - Loaded 5 files for 125-a125
+2026-05-12 14:17:41 - DEBUG - Loaded 5 files for 19-a19
+2026-05-12 14:17:42 - DEBUG - Loaded 5 files for 26-b26
+2026-05-12 14:17:43 - DEBUG - Loaded 5 files for 27-c27
+2026-05-12 14:17:43 - DEBUG - Loaded 5 files for 32-d32
+2026-05-12 14:17:44 - DEBUG - Loaded 5 files for 39-e39
+2026-05-12 14:17:45 - DEBUG - Loaded 5 files for 40-f40
+2026-05-12 14:17:45 - DEBUG - Loaded 5 files for 60-g60
+2026-05-12 14:17:46 - DEBUG - Loaded 5 files for 78-h78
+2026-05-12 14:17:47 - DEBUG - Loaded 5 files for 83-f83
+2026-05-12 14:17:48 - DEBUG - Loaded 5 files for 87-g87
+2026-05-12 14:17:48 - DEBUG - Loaded 5 files for 89-h89
+2026-05-12 14:17:52 - DEBUG - Loaded 30 files for Action-potential
+2026-05-12 14:18:00 - DEBUG - Loaded 30 files for Adrianne-Wadewitz
+2026-05-12 14:18:06 - DEBUG - Loaded 46 files for Air-tractor_sledge
+2026-05-12 14:18:09 - DEBUG - Loaded 14 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 14:18:14 - DEBUG - Loaded 44 files for Ali-G
+2026-05-12 14:18:20 - DEBUG - Loaded 45 files for Alleyway-1
+2026-05-12 14:18:23 - DEBUG - Loaded 26 files for Ana-Lucia_Cortez
+2026-05-12 14:18:23 - DEBUG - Loaded 5 files for anthonyschaller-20071221-
+2026-05-12 14:18:23 - DEBUG - Loaded 5 files for Apple_Eater-20091026-yul
+2026-05-12 14:18:24 - DEBUG - Loaded 5 files for Ara-20091021-wpl
+2026-05-12 14:18:24 - DEBUG - Loaded 5 files for Ara2-20-vni
+2026-05-12 14:18:24 - DEBUG - Loaded 5 files for argail-20090722-gau
+2026-05-12 14:18:25 - DEBUG - Loaded 5 files for ariyan-20120801-gra
+2026-05-12 14:18:25 - DEBUG - Loaded 5 files for arjuan-20100820-acz
+2026-05-12 14:18:25 - DEBUG - Loaded 5 files for armond-20121229-wca
+2026-05-12 14:18:26 - DEBUG - Loaded 5 files for Artem-20121123-ebd
+2026-05-12 14:18:26 - DEBUG - Loaded 5 files for arthur-20130509-yjj
+2026-05-12 14:18:26 - DEBUG - Loaded 5 files for artk-20101225-kvd
+2026-05-12 14:18:27 - DEBUG - Loaded 5 files for arun-20100928-usw
+2026-05-12 14:18:27 - DEBUG - Loaded 5 files for arvala-20110103-nlb
+2026-05-12 14:18:27 - DEBUG - Loaded 5 files for asalkeld-20111226-ets
+2026-05-12 14:18:28 - DEBUG - Loaded 5 files for asladic-20100311-bfp
+2026-05-12 14:18:28 - DEBUG - Loaded 5 files for AslakKnutsen-20140314-bje
+2026-05-12 14:18:28 - DEBUG - Loaded 5 files for AslakKnutsen-20140314-crb
+2026-05-12 14:18:28 - DEBUG - Loaded 5 files for asp-20091228-inn
+2026-05-12 14:18:29 - DEBUG - Loaded 5 files for asp-20091228-qtl
+2026-05-12 14:18:29 - DEBUG - Loaded 5 files for AT-20130718-lws
+2026-05-12 14:18:29 - DEBUG - Loaded 5 files for atamur-20090211-wdo
+2026-05-12 14:18:29 - DEBUG - Loaded 5 files for ataru80-20120624-hfe
+2026-05-12 14:18:30 - DEBUG - Loaded 16 files for atterer-01202007-a
+2026-05-12 14:18:31 - DEBUG - Loaded 20 files for atterer-01202007-b
+2026-05-12 14:18:32 - DEBUG - Loaded 5 files for audioodyssey-20081109-rew
+2026-05-12 14:18:33 - DEBUG - Loaded 20 files for avsa242-20071208
+2026-05-12 14:18:33 - DEBUG - Loaded 5 files for ax-20150219-yhd
+2026-05-12 14:18:33 - DEBUG - Loaded 5 files for axllaruse-20140112-ced
+2026-05-12 14:18:34 - DEBUG - Loaded 5 files for azmisov-20140428-cyp
+2026-05-12 14:18:34 - DEBUG - Loaded 5 files for B-20091220-vus
+2026-05-12 14:18:34 - DEBUG - Loaded 5 files for bachroxx-20080119-tuu
+2026-05-12 14:18:39 - DEBUG - Loaded 35 files for Baden-Powell_House
+2026-05-12 14:18:39 - DEBUG - Loaded 5 files for bae-20110617-vdq
+2026-05-12 14:18:39 - DEBUG - Loaded 5 files for Bahoke-20130721-brs
+2026-05-12 14:18:40 - DEBUG - Loaded 5 files for Bareford-20101110-qkl
+2026-05-12 14:18:40 - DEBUG - Loaded 5 files for bart-20090807-ufp
+2026-05-12 14:18:40 - DEBUG - Loaded 5 files for Bassel-20120209-xky
+2026-05-12 14:18:41 - DEBUG - Loaded 5 files for bdutta-20090502-crj
+2026-05-12 14:18:41 - DEBUG - Loaded 5 files for beady-20100219-xpq
+2026-05-12 14:18:41 - DEBUG - Loaded 5 files for bebe-20100419-gpw
+2026-05-12 14:18:42 - DEBUG - Loaded 5 files for becz03-20121205-xvx
+2026-05-12 14:18:42 - DEBUG - Loaded 5 files for belmontguy-20110426-geu
+2026-05-12 14:18:42 - DEBUG - Loaded 5 files for ben-20090326-cpr
+2026-05-12 14:18:43 - DEBUG - Loaded 5 files for bencoder-20080418-iev
+2026-05-12 14:18:43 - DEBUG - Loaded 5 files for bendauphinee-20100423-dtj
+2026-05-12 14:18:44 - DEBUG - Loaded 5 files for bendra-20141108-xnz
+2026-05-12 14:18:44 - DEBUG - Loaded 5 files for bennmann-20091102-apc
+2026-05-12 14:18:44 - DEBUG - Loaded 5 files for benob-20090314-wzw
+2026-05-12 14:18:44 - DEBUG - Loaded 5 files for benoliver999-20100207-euk
+2026-05-12 14:18:45 - DEBUG - Loaded 5 files for Berrym-20101102-aiv
+2026-05-12 14:18:48 - DEBUG - Loaded 30 files for Beverage-can_stove
+2026-05-12 14:18:48 - DEBUG - Loaded 5 files for BFG-20120316-bdl
+2026-05-12 14:18:49 - DEBUG - Loaded 5 files for bhart-20100106-djk
+2026-05-12 14:18:49 - DEBUG - Loaded 5 files for bhavanikrishna-20100108-kth
+2026-05-12 14:18:49 - DEBUG - Loaded 5 files for BhushanNKIITBombay-20140219-bbj
+2026-05-12 14:18:50 - DEBUG - Loaded 5 files for bhuvan-20091111-cil
+2026-05-12 14:18:50 - DEBUG - Loaded 5 files for bigmbywater-20100821-atk
+2026-05-12 14:18:50 - DEBUG - Loaded 5 files for BigMick-20090919-pvv
+2026-05-12 14:18:50 - DEBUG - Loaded 5 files for BillMorgan-20120306-aef
+2026-05-12 14:18:51 - DEBUG - Loaded 5 files for Bitbrit-20090528-fsw
+2026-05-12 14:18:51 - DEBUG - Loaded 5 files for Blackdrive-20080605-vwx
+2026-05-12 14:18:51 - DEBUG - Loaded 5 files for Blenderkitty-20090615-qcv
+2026-05-12 14:18:51 - DEBUG - Loaded 5 files for BlindPilot-20100610-ama
+2026-05-12 14:18:52 - DEBUG - Loaded 5 files for blood-20100308-gbb
+2026-05-12 14:18:52 - DEBUG - Loaded 5 files for bloomtom-20080612-mvm
+2026-05-12 14:18:52 - DEBUG - Loaded 5 files for BlueAgent-20120819-dok
+2026-05-12 14:18:52 - DEBUG - Loaded 5 files for BlueB-20090727-ckj
+2026-05-12 14:18:53 - DEBUG - Loaded 13 files for bluefox83-20080413-bwq
+2026-05-12 14:18:53 - DEBUG - Loaded 5 files for bluepeppers-20091030-kqs
+2026-05-12 14:18:53 - DEBUG - Loaded 5 files for bluSch-20100525-bqg
+2026-05-12 14:18:54 - DEBUG - Loaded 5 files for Bob-20100106-mwu
+2026-05-12 14:18:54 - DEBUG - Loaded 5 files for BobHallstrom-20150105-tmy
+2026-05-12 14:18:55 - DEBUG - Loaded 4 files for bobriva123-20100611-cuz
+2026-05-12 14:18:55 - DEBUG - Loaded 5 files for bonzer-20090919-btg
+2026-05-12 14:19:01 - DEBUG - Loaded 25 files for Davy-Crockett
+2026-05-12 14:19:01 - INFO - Loaded 823 samples from 823 files
+2026-05-12 14:19:01 - INFO - Training Random Forest with 200 trees...
+2026-05-12 14:19:02 - INFO - ============================================================
+2026-05-12 14:19:02 - INFO - TRAINING SUMMARY
+2026-05-12 14:19:02 - INFO - ============================================================
+2026-05-12 14:19:02 - INFO - Speakers:              100
+2026-05-12 14:19:02 - INFO - Training samples:      823
+2026-05-12 14:19:02 - INFO - Feature dimension:     40
+2026-05-12 14:19:02 - INFO - Trees:                 200
+2026-05-12 14:19:02 - INFO - Training time:         87.40s
+2026-05-12 14:19:02 - INFO - ============================================================
+2026-05-12 14:19:02 - INFO - Metrics saved for stage: training_complete
+2026-05-12 14:19:02 - INFO - ============================================================
+2026-05-12 14:19:02 - INFO - RANDOM FOREST MODEL EVALUATION
+2026-05-12 14:19:02 - INFO - ============================================================
+2026-05-12 14:19:03 - DEBUG - Loaded 5 files for 103-i103
+2026-05-12 14:19:04 - DEBUG - Loaded 5 files for 1034-a1034
+2026-05-12 14:19:04 - DEBUG - Loaded 5 files for 1040-b1040
+2026-05-12 14:19:05 - DEBUG - Loaded 5 files for 1069-c1069
+2026-05-12 14:19:05 - DEBUG - Loaded 5 files for 1081-d1081
+2026-05-12 14:19:06 - DEBUG - Loaded 5 files for 118-a118
+2026-05-12 14:19:07 - DEBUG - Loaded 5 files for 125-a125
+2026-05-12 14:19:07 - DEBUG - Loaded 5 files for 19-a19
+2026-05-12 14:19:08 - DEBUG - Loaded 5 files for 26-b26
+2026-05-12 14:19:09 - DEBUG - Loaded 5 files for 27-c27
+2026-05-12 14:19:09 - DEBUG - Loaded 5 files for 32-d32
+2026-05-12 14:19:10 - DEBUG - Loaded 5 files for 39-e39
+2026-05-12 14:19:11 - DEBUG - Loaded 5 files for 40-f40
+2026-05-12 14:19:11 - DEBUG - Loaded 5 files for 60-g60
+2026-05-12 14:19:12 - DEBUG - Loaded 5 files for 78-h78
+2026-05-12 14:19:13 - DEBUG - Loaded 5 files for 83-f83
+2026-05-12 14:19:14 - DEBUG - Loaded 5 files for 87-g87
+2026-05-12 14:19:14 - DEBUG - Loaded 5 files for 89-h89
+2026-05-12 14:19:18 - DEBUG - Loaded 27 files for Action-potential
+2026-05-12 14:19:25 - DEBUG - Loaded 29 files for Adrianne-Wadewitz
+2026-05-12 14:19:31 - DEBUG - Loaded 45 files for Air-tractor_sledge
+2026-05-12 14:19:33 - DEBUG - Loaded 12 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 14:19:39 - DEBUG - Loaded 43 files for Ali-G
+2026-05-12 14:19:44 - DEBUG - Loaded 45 files for Alleyway-1
+2026-05-12 14:19:47 - DEBUG - Loaded 25 files for Ana-Lucia_Cortez
+2026-05-12 14:19:48 - DEBUG - Loaded 5 files for anthonyschaller-20071221-
+2026-05-12 14:19:48 - DEBUG - Loaded 5 files for Apple_Eater-20091026-yul
+2026-05-12 14:19:48 - DEBUG - Loaded 5 files for Ara-20091021-wpl
+2026-05-12 14:19:49 - DEBUG - Loaded 5 files for Ara2-20-vni
+2026-05-12 14:19:49 - DEBUG - Loaded 5 files for argail-20090722-gau
+2026-05-12 14:19:49 - DEBUG - Loaded 5 files for ariyan-20120801-gra
+2026-05-12 14:19:50 - DEBUG - Loaded 5 files for arjuan-20100820-acz
+2026-05-12 14:19:50 - DEBUG - Loaded 4 files for armond-20121229-wca
+2026-05-12 14:19:50 - DEBUG - Loaded 5 files for Artem-20121123-ebd
+2026-05-12 14:19:51 - DEBUG - Loaded 5 files for arthur-20130509-yjj
+2026-05-12 14:19:51 - DEBUG - Loaded 5 files for artk-20101225-kvd
+2026-05-12 14:19:51 - DEBUG - Loaded 5 files for arun-20100928-usw
+2026-05-12 14:19:52 - DEBUG - Loaded 5 files for arvala-20110103-nlb
+2026-05-12 14:19:52 - DEBUG - Loaded 5 files for asalkeld-20111226-ets
+2026-05-12 14:19:52 - DEBUG - Loaded 5 files for asladic-20100311-bfp
+2026-05-12 14:19:52 - DEBUG - Loaded 5 files for AslakKnutsen-20140314-bje
+2026-05-12 14:19:53 - DEBUG - Loaded 5 files for AslakKnutsen-20140314-crb
+2026-05-12 14:19:53 - DEBUG - Loaded 5 files for asp-20091228-inn
+2026-05-12 14:19:53 - DEBUG - Loaded 5 files for asp-20091228-qtl
+2026-05-12 14:19:54 - DEBUG - Loaded 5 files for AT-20130718-lws
+2026-05-12 14:19:54 - DEBUG - Loaded 5 files for atamur-20090211-wdo
+2026-05-12 14:19:54 - DEBUG - Loaded 5 files for ataru80-20120624-hfe
+2026-05-12 14:19:55 - DEBUG - Loaded 15 files for atterer-01202007-a
+2026-05-12 14:19:56 - DEBUG - Loaded 20 files for atterer-01202007-b
+2026-05-12 14:19:56 - DEBUG - Loaded 5 files for audioodyssey-20081109-rew
+2026-05-12 14:19:57 - DEBUG - Loaded 19 files for avsa242-20071208
+2026-05-12 14:19:58 - DEBUG - Loaded 5 files for ax-20150219-yhd
+2026-05-12 14:19:58 - DEBUG - Loaded 5 files for axllaruse-20140112-ced
+2026-05-12 14:19:58 - DEBUG - Loaded 5 files for azmisov-20140428-cyp
+2026-05-12 14:19:58 - DEBUG - Loaded 5 files for B-20091220-vus
+2026-05-12 14:19:59 - DEBUG - Loaded 5 files for bachroxx-20080119-tuu
+2026-05-12 14:20:03 - DEBUG - Loaded 35 files for Baden-Powell_House
+2026-05-12 14:20:03 - DEBUG - Loaded 5 files for bae-20110617-vdq
+2026-05-12 14:20:04 - DEBUG - Loaded 5 files for Bahoke-20130721-brs
+2026-05-12 14:20:04 - DEBUG - Loaded 5 files for Bareford-20101110-qkl
+2026-05-12 14:20:04 - DEBUG - Loaded 5 files for bart-20090807-ufp
+2026-05-12 14:20:04 - DEBUG - Loaded 5 files for Bassel-20120209-xky
+2026-05-12 14:20:05 - DEBUG - Loaded 5 files for bdutta-20090502-crj
+2026-05-12 14:20:05 - DEBUG - Loaded 5 files for beady-20100219-xpq
+2026-05-12 14:20:05 - DEBUG - Loaded 5 files for bebe-20100419-gpw
+2026-05-12 14:20:05 - DEBUG - Loaded 5 files for becz03-20121205-xvx
+2026-05-12 14:20:06 - DEBUG - Loaded 5 files for belmontguy-20110426-geu
+2026-05-12 14:20:06 - DEBUG - Loaded 5 files for ben-20090326-cpr
+2026-05-12 14:20:06 - DEBUG - Loaded 5 files for bencoder-20080418-iev
+2026-05-12 14:20:06 - DEBUG - Loaded 5 files for bendauphinee-20100423-dtj
+2026-05-12 14:20:07 - DEBUG - Loaded 5 files for bendra-20141108-xnz
+2026-05-12 14:20:07 - DEBUG - Loaded 5 files for bennmann-20091102-apc
+2026-05-12 14:20:07 - DEBUG - Loaded 5 files for benob-20090314-wzw
+2026-05-12 14:20:07 - DEBUG - Loaded 5 files for benoliver999-20100207-euk
+2026-05-12 14:20:08 - DEBUG - Loaded 5 files for Berrym-20101102-aiv
+2026-05-12 14:20:11 - DEBUG - Loaded 30 files for Beverage-can_stove
+2026-05-12 14:20:11 - DEBUG - Loaded 5 files for BFG-20120316-bdl
+2026-05-12 14:20:12 - DEBUG - Loaded 5 files for bhart-20100106-djk
+2026-05-12 14:20:12 - DEBUG - Loaded 5 files for bhavanikrishna-20100108-kth
+2026-05-12 14:20:12 - DEBUG - Loaded 5 files for BhushanNKIITBombay-20140219-bbj
+2026-05-12 14:20:12 - DEBUG - Loaded 5 files for bhuvan-20091111-cil
+2026-05-12 14:20:13 - DEBUG - Loaded 5 files for bigmbywater-20100821-atk
+2026-05-12 14:20:13 - DEBUG - Loaded 5 files for BigMick-20090919-pvv
+2026-05-12 14:20:13 - DEBUG - Loaded 5 files for BillMorgan-20120306-aef
+2026-05-12 14:20:13 - DEBUG - Loaded 5 files for Bitbrit-20090528-fsw
+2026-05-12 14:20:14 - DEBUG - Loaded 5 files for Blackdrive-20080605-vwx
+2026-05-12 14:20:14 - DEBUG - Loaded 5 files for Blenderkitty-20090615-qcv
+2026-05-12 14:20:14 - DEBUG - Loaded 5 files for BlindPilot-20100610-ama
+2026-05-12 14:20:14 - DEBUG - Loaded 5 files for blood-20100308-gbb
+2026-05-12 14:20:15 - DEBUG - Loaded 5 files for bloomtom-20080612-mvm
+2026-05-12 14:20:15 - DEBUG - Loaded 5 files for BlueAgent-20120819-dok
+2026-05-12 14:20:15 - DEBUG - Loaded 5 files for BlueB-20090727-ckj
+2026-05-12 14:20:16 - DEBUG - Loaded 12 files for bluefox83-20080413-bwq
+2026-05-12 14:20:16 - DEBUG - Loaded 5 files for bluepeppers-20091030-kqs
+2026-05-12 14:20:17 - DEBUG - Loaded 5 files for bluSch-20100525-bqg
+2026-05-12 14:20:17 - DEBUG - Loaded 5 files for Bob-20100106-mwu
+2026-05-12 14:20:17 - DEBUG - Loaded 5 files for BobHallstrom-20150105-tmy
+2026-05-12 14:20:18 - DEBUG - Loaded 4 files for bobriva123-20100611-cuz
+2026-05-12 14:20:18 - DEBUG - Loaded 5 files for bonzer-20090919-btg
+2026-05-12 14:20:24 - DEBUG - Loaded 25 files for Davy-Crockett
+2026-05-12 14:20:24 - INFO - Loaded 810 test samples
+2026-05-12 14:20:24 - INFO - ============================================================
+2026-05-12 14:20:24 - INFO - EVALUATION SUMMARY
+2026-05-12 14:20:24 - INFO - ============================================================
+2026-05-12 14:20:24 - INFO - Total processed:       810
+2026-05-12 14:20:24 - INFO - Correct predictions:   213
+2026-05-12 14:20:24 - INFO - Incorrect predictions: 597
+2026-05-12 14:20:24 - INFO - Accuracy:              0.2630 (26.30%)
+2026-05-12 14:20:24 - INFO - FNMR:                  0.0000
+2026-05-12 14:20:24 - INFO - FMR:                   0.7370
+2026-05-12 14:20:24 - INFO - Evaluation time:       82.22s
+2026-05-12 14:20:24 - INFO - ============================================================
+2026-05-12 14:20:24 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 14:20:24 - INFO - Summary saved: results\rf_n-to-n_20260512_141734\summary.json

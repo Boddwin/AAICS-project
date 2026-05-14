@@ -1,0 +1,3 @@
+speakers_trained,audio_files,total_features,training_time_seconds,stage,timestamp
+1,10,54945,4.924163579940796,training_complete,2026-05-11T16:47:27.243183
+17,0,0,17,0.0,1.0,0.0,138.22730374336243,-25,evaluation_complete,2026-05-11T16:49:45.484902

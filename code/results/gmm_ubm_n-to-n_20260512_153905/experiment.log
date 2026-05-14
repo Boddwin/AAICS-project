@@ -1,0 +1,450 @@
+2026-05-12 15:39:05 - INFO - 
+======================================================================
+2026-05-12 15:39:05 - INFO - GMM-UBM EXPERIMENT: n-to-n
+2026-05-12 15:39:05 - INFO - ======================================================================
+
+2026-05-12 15:39:05 - INFO - Starting training phase...
+2026-05-12 15:39:05 - INFO - Cleared previous models from speaker_models
+2026-05-12 15:39:05 - INFO - Cleared previous UBM from ubm_model
+2026-05-12 15:39:05 - INFO - ============================================================
+2026-05-12 15:39:05 - INFO - GMM-UBM MODEL TRAINING
+2026-05-12 15:39:05 - INFO - ============================================================
+2026-05-12 15:39:05 - INFO - Audio files path: ../data/n-to-n\train
+2026-05-12 15:39:05 - INFO - N components: 16
+2026-05-12 15:39:05 - DEBUG - Processing speaker: 103-i103
+2026-05-12 15:39:06 - INFO - [OK] Model trained: 103-i103 | Features: (7565, 40) | Audio files: 5
+2026-05-12 15:39:06 - DEBUG - Processing speaker: 1034-a1034
+2026-05-12 15:39:08 - INFO - [OK] Model trained: 1034-a1034 | Features: (5722, 40) | Audio files: 5
+2026-05-12 15:39:08 - DEBUG - Processing speaker: 1040-b1040
+2026-05-12 15:39:09 - INFO - [OK] Model trained: 1040-b1040 | Features: (5970, 40) | Audio files: 5
+2026-05-12 15:39:09 - DEBUG - Processing speaker: 1069-c1069
+2026-05-12 15:39:11 - INFO - [OK] Model trained: 1069-c1069 | Features: (7236, 40) | Audio files: 5
+2026-05-12 15:39:11 - DEBUG - Processing speaker: 1081-d1081
+2026-05-12 15:39:13 - INFO - [OK] Model trained: 1081-d1081 | Features: (5877, 40) | Audio files: 5
+2026-05-12 15:39:13 - DEBUG - Processing speaker: 118-a118
+2026-05-12 15:39:15 - INFO - [OK] Model trained: 118-a118 | Features: (5716, 40) | Audio files: 5
+2026-05-12 15:39:15 - DEBUG - Processing speaker: 125-a125
+2026-05-12 15:39:17 - INFO - [OK] Model trained: 125-a125 | Features: (5079, 40) | Audio files: 5
+2026-05-12 15:39:17 - DEBUG - Processing speaker: 19-a19
+2026-05-12 15:39:18 - INFO - [OK] Model trained: 19-a19 | Features: (5293, 40) | Audio files: 5
+2026-05-12 15:39:18 - DEBUG - Processing speaker: 26-b26
+2026-05-12 15:39:21 - INFO - [OK] Model trained: 26-b26 | Features: (6075, 40) | Audio files: 5
+2026-05-12 15:39:21 - DEBUG - Processing speaker: 27-c27
+2026-05-12 15:39:23 - INFO - [OK] Model trained: 27-c27 | Features: (6013, 40) | Audio files: 5
+2026-05-12 15:39:23 - DEBUG - Processing speaker: 32-d32
+2026-05-12 15:39:25 - INFO - [OK] Model trained: 32-d32 | Features: (6876, 40) | Audio files: 5
+2026-05-12 15:39:25 - DEBUG - Processing speaker: 39-e39
+2026-05-12 15:39:26 - INFO - [OK] Model trained: 39-e39 | Features: (4950, 40) | Audio files: 5
+2026-05-12 15:39:26 - DEBUG - Processing speaker: 40-f40
+2026-05-12 15:39:28 - INFO - [OK] Model trained: 40-f40 | Features: (6729, 40) | Audio files: 5
+2026-05-12 15:39:28 - DEBUG - Processing speaker: 60-g60
+2026-05-12 15:39:29 - INFO - [OK] Model trained: 60-g60 | Features: (5624, 40) | Audio files: 5
+2026-05-12 15:39:29 - DEBUG - Processing speaker: 78-h78
+2026-05-12 15:39:31 - INFO - [OK] Model trained: 78-h78 | Features: (6868, 40) | Audio files: 5
+2026-05-12 15:39:31 - DEBUG - Processing speaker: 83-f83
+2026-05-12 15:39:33 - INFO - [OK] Model trained: 83-f83 | Features: (6021, 40) | Audio files: 5
+2026-05-12 15:39:33 - DEBUG - Processing speaker: 87-g87
+2026-05-12 15:39:35 - INFO - [OK] Model trained: 87-g87 | Features: (7090, 40) | Audio files: 5
+2026-05-12 15:39:35 - DEBUG - Processing speaker: 89-h89
+2026-05-12 15:39:36 - INFO - [OK] Model trained: 89-h89 | Features: (6153, 40) | Audio files: 5
+2026-05-12 15:39:36 - DEBUG - Processing speaker: Action-potential
+2026-05-12 15:39:45 - INFO - [OK] Model trained: Action-potential | Features: (29970, 40) | Audio files: 30
+2026-05-12 15:39:45 - DEBUG - Processing speaker: Adrianne-Wadewitz
+2026-05-12 15:40:00 - INFO - [OK] Model trained: Adrianne-Wadewitz | Features: (59970, 40) | Audio files: 30
+2026-05-12 15:40:00 - DEBUG - Processing speaker: Air-tractor_sledge
+2026-05-12 15:40:16 - INFO - [OK] Model trained: Air-tractor_sledge | Features: (45954, 40) | Audio files: 46
+2026-05-12 15:40:16 - DEBUG - Processing speaker: Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 15:40:23 - INFO - [OK] Model trained: Alan-Harper_(Two_and_a_Half_Men) | Features: (27986, 40) | Audio files: 14
+2026-05-12 15:40:23 - DEBUG - Processing speaker: Ali-G
+2026-05-12 15:40:37 - INFO - [OK] Model trained: Ali-G | Features: (43956, 40) | Audio files: 44
+2026-05-12 15:40:37 - DEBUG - Processing speaker: Alleyway-1
+2026-05-12 15:40:50 - INFO - [OK] Model trained: Alleyway-1 | Features: (44955, 40) | Audio files: 45
+2026-05-12 15:40:50 - DEBUG - Processing speaker: Ana-Lucia_Cortez
+2026-05-12 15:40:59 - INFO - [OK] Model trained: Ana-Lucia_Cortez | Features: (25974, 40) | Audio files: 26
+2026-05-12 15:40:59 - DEBUG - Processing speaker: anthonyschaller-20071221-
+2026-05-12 15:40:59 - INFO - [OK] Model trained: anthonyschaller-20071221- | Features: (1595, 40) | Audio files: 5
+2026-05-12 15:40:59 - DEBUG - Processing speaker: Apple_Eater-20091026-yul
+2026-05-12 15:41:00 - INFO - [OK] Model trained: Apple_Eater-20091026-yul | Features: (2077, 40) | Audio files: 5
+2026-05-12 15:41:00 - DEBUG - Processing speaker: Ara-20091021-wpl
+2026-05-12 15:41:01 - INFO - [OK] Model trained: Ara-20091021-wpl | Features: (4044, 40) | Audio files: 5
+2026-05-12 15:41:01 - DEBUG - Processing speaker: Ara2-20-vni
+2026-05-12 15:41:03 - INFO - [OK] Model trained: Ara2-20-vni | Features: (3644, 40) | Audio files: 5
+2026-05-12 15:41:03 - DEBUG - Processing speaker: argail-20090722-gau
+2026-05-12 15:41:04 - INFO - [OK] Model trained: argail-20090722-gau | Features: (2468, 40) | Audio files: 5
+2026-05-12 15:41:04 - DEBUG - Processing speaker: ariyan-20120801-gra
+2026-05-12 15:41:05 - INFO - [OK] Model trained: ariyan-20120801-gra | Features: (2506, 40) | Audio files: 5
+2026-05-12 15:41:05 - DEBUG - Processing speaker: arjuan-20100820-acz
+2026-05-12 15:41:06 - INFO - [OK] Model trained: arjuan-20100820-acz | Features: (2707, 40) | Audio files: 5
+2026-05-12 15:41:06 - DEBUG - Processing speaker: armond-20121229-wca
+2026-05-12 15:41:07 - INFO - [OK] Model trained: armond-20121229-wca | Features: (5331, 40) | Audio files: 5
+2026-05-12 15:41:07 - DEBUG - Processing speaker: Artem-20121123-ebd
+2026-05-12 15:41:09 - INFO - [OK] Model trained: Artem-20121123-ebd | Features: (2794, 40) | Audio files: 5
+2026-05-12 15:41:09 - DEBUG - Processing speaker: arthur-20130509-yjj
+2026-05-12 15:41:10 - INFO - [OK] Model trained: arthur-20130509-yjj | Features: (3782, 40) | Audio files: 5
+2026-05-12 15:41:10 - DEBUG - Processing speaker: artk-20101225-kvd
+2026-05-12 15:41:12 - INFO - [OK] Model trained: artk-20101225-kvd | Features: (3369, 40) | Audio files: 5
+2026-05-12 15:41:12 - DEBUG - Processing speaker: arun-20100928-usw
+2026-05-12 15:41:13 - INFO - [OK] Model trained: arun-20100928-usw | Features: (3031, 40) | Audio files: 5
+2026-05-12 15:41:13 - DEBUG - Processing speaker: arvala-20110103-nlb
+2026-05-12 15:41:14 - INFO - [OK] Model trained: arvala-20110103-nlb | Features: (2718, 40) | Audio files: 5
+2026-05-12 15:41:14 - DEBUG - Processing speaker: asalkeld-20111226-ets
+2026-05-12 15:41:16 - INFO - [OK] Model trained: asalkeld-20111226-ets | Features: (3294, 40) | Audio files: 5
+2026-05-12 15:41:16 - DEBUG - Processing speaker: asladic-20100311-bfp
+2026-05-12 15:41:16 - INFO - [OK] Model trained: asladic-20100311-bfp | Features: (1743, 40) | Audio files: 5
+2026-05-12 15:41:16 - DEBUG - Processing speaker: AslakKnutsen-20140314-bje
+2026-05-12 15:41:18 - INFO - [OK] Model trained: AslakKnutsen-20140314-bje | Features: (2444, 40) | Audio files: 5
+2026-05-12 15:41:18 - DEBUG - Processing speaker: AslakKnutsen-20140314-crb
+2026-05-12 15:41:18 - INFO - [OK] Model trained: AslakKnutsen-20140314-crb | Features: (2419, 40) | Audio files: 5
+2026-05-12 15:41:18 - DEBUG - Processing speaker: asp-20091228-inn
+2026-05-12 15:41:19 - INFO - [OK] Model trained: asp-20091228-inn | Features: (2556, 40) | Audio files: 5
+2026-05-12 15:41:19 - DEBUG - Processing speaker: asp-20091228-qtl
+2026-05-12 15:41:20 - INFO - [OK] Model trained: asp-20091228-qtl | Features: (2506, 40) | Audio files: 5
+2026-05-12 15:41:20 - DEBUG - Processing speaker: AT-20130718-lws
+2026-05-12 15:41:21 - INFO - [OK] Model trained: AT-20130718-lws | Features: (2694, 40) | Audio files: 5
+2026-05-12 15:41:21 - DEBUG - Processing speaker: atamur-20090211-wdo
+2026-05-12 15:41:22 - INFO - [OK] Model trained: atamur-20090211-wdo | Features: (2056, 40) | Audio files: 5
+2026-05-12 15:41:22 - DEBUG - Processing speaker: ataru80-20120624-hfe
+2026-05-12 15:41:23 - INFO - [OK] Model trained: ataru80-20120624-hfe | Features: (2831, 40) | Audio files: 5
+2026-05-12 15:41:23 - DEBUG - Processing speaker: atterer-01202007-a
+2026-05-12 15:41:27 - INFO - [OK] Model trained: atterer-01202007-a | Features: (9348, 40) | Audio files: 16
+2026-05-12 15:41:27 - DEBUG - Processing speaker: atterer-01202007-b
+2026-05-12 15:41:30 - INFO - [OK] Model trained: atterer-01202007-b | Features: (9558, 40) | Audio files: 20
+2026-05-12 15:41:30 - DEBUG - Processing speaker: audioodyssey-20081109-rew
+2026-05-12 15:41:31 - INFO - [OK] Model trained: audioodyssey-20081109-rew | Features: (3219, 40) | Audio files: 5
+2026-05-12 15:41:31 - DEBUG - Processing speaker: avsa242-20071208
+2026-05-12 15:41:36 - INFO - [OK] Model trained: avsa242-20071208 | Features: (10904, 40) | Audio files: 20
+2026-05-12 15:41:36 - DEBUG - Processing speaker: ax-20150219-yhd
+2026-05-12 15:41:37 - INFO - [OK] Model trained: ax-20150219-yhd | Features: (2719, 40) | Audio files: 5
+2026-05-12 15:41:37 - DEBUG - Processing speaker: axllaruse-20140112-ced
+2026-05-12 15:41:38 - INFO - [OK] Model trained: axllaruse-20140112-ced | Features: (3381, 40) | Audio files: 5
+2026-05-12 15:41:38 - DEBUG - Processing speaker: azmisov-20140428-cyp
+2026-05-12 15:41:40 - INFO - [OK] Model trained: azmisov-20140428-cyp | Features: (2195, 40) | Audio files: 5
+2026-05-12 15:41:40 - DEBUG - Processing speaker: B-20091220-vus
+2026-05-12 15:41:41 - INFO - [OK] Model trained: B-20091220-vus | Features: (2042, 40) | Audio files: 5
+2026-05-12 15:41:41 - DEBUG - Processing speaker: bachroxx-20080119-tuu
+2026-05-12 15:41:42 - INFO - [OK] Model trained: bachroxx-20080119-tuu | Features: (1955, 40) | Audio files: 5
+2026-05-12 15:41:42 - DEBUG - Processing speaker: Baden-Powell_House
+2026-05-12 15:41:55 - INFO - [OK] Model trained: Baden-Powell_House | Features: (34965, 40) | Audio files: 35
+2026-05-12 15:41:55 - DEBUG - Processing speaker: bae-20110617-vdq
+2026-05-12 15:41:56 - INFO - [OK] Model trained: bae-20110617-vdq | Features: (2719, 40) | Audio files: 5
+2026-05-12 15:41:56 - DEBUG - Processing speaker: Bahoke-20130721-brs
+2026-05-12 15:41:57 - INFO - [OK] Model trained: Bahoke-20130721-brs | Features: (2194, 40) | Audio files: 5
+2026-05-12 15:41:57 - DEBUG - Processing speaker: Bareford-20101110-qkl
+2026-05-12 15:41:58 - INFO - [OK] Model trained: Bareford-20101110-qkl | Features: (2844, 40) | Audio files: 5
+2026-05-12 15:41:58 - DEBUG - Processing speaker: bart-20090807-ufp
+2026-05-12 15:41:59 - INFO - [OK] Model trained: bart-20090807-ufp | Features: (2079, 40) | Audio files: 5
+2026-05-12 15:41:59 - DEBUG - Processing speaker: Bassel-20120209-xky
+2026-05-12 15:42:00 - INFO - [OK] Model trained: Bassel-20120209-xky | Features: (2831, 40) | Audio files: 5
+2026-05-12 15:42:00 - DEBUG - Processing speaker: bdutta-20090502-crj
+2026-05-12 15:42:01 - INFO - [OK] Model trained: bdutta-20090502-crj | Features: (2543, 40) | Audio files: 5
+2026-05-12 15:42:01 - DEBUG - Processing speaker: beady-20100219-xpq
+2026-05-12 15:42:02 - INFO - [OK] Model trained: beady-20100219-xpq | Features: (2409, 40) | Audio files: 5
+2026-05-12 15:42:02 - DEBUG - Processing speaker: bebe-20100419-gpw
+2026-05-12 15:42:03 - INFO - [OK] Model trained: bebe-20100419-gpw | Features: (1669, 40) | Audio files: 5
+2026-05-12 15:42:03 - DEBUG - Processing speaker: becz03-20121205-xvx
+2026-05-12 15:42:04 - INFO - [OK] Model trained: becz03-20121205-xvx | Features: (2869, 40) | Audio files: 5
+2026-05-12 15:42:04 - DEBUG - Processing speaker: belmontguy-20110426-geu
+2026-05-12 15:42:05 - INFO - [OK] Model trained: belmontguy-20110426-geu | Features: (2594, 40) | Audio files: 5
+2026-05-12 15:42:05 - DEBUG - Processing speaker: ben-20090326-cpr
+2026-05-12 15:42:06 - INFO - [OK] Model trained: ben-20090326-cpr | Features: (2231, 40) | Audio files: 5
+2026-05-12 15:42:06 - DEBUG - Processing speaker: bencoder-20080418-iev
+2026-05-12 15:42:07 - INFO - [OK] Model trained: bencoder-20080418-iev | Features: (2152, 40) | Audio files: 5
+2026-05-12 15:42:07 - DEBUG - Processing speaker: bendauphinee-20100423-dtj
+2026-05-12 15:42:08 - INFO - [OK] Model trained: bendauphinee-20100423-dtj | Features: (2256, 40) | Audio files: 5
+2026-05-12 15:42:08 - DEBUG - Processing speaker: bendra-20141108-xnz
+2026-05-12 15:42:10 - INFO - [OK] Model trained: bendra-20141108-xnz | Features: (2857, 40) | Audio files: 5
+2026-05-12 15:42:10 - DEBUG - Processing speaker: bennmann-20091102-apc
+2026-05-12 15:42:11 - INFO - [OK] Model trained: bennmann-20091102-apc | Features: (2055, 40) | Audio files: 5
+2026-05-12 15:42:11 - DEBUG - Processing speaker: benob-20090314-wzw
+2026-05-12 15:42:12 - INFO - [OK] Model trained: benob-20090314-wzw | Features: (2332, 40) | Audio files: 5
+2026-05-12 15:42:12 - DEBUG - Processing speaker: benoliver999-20100207-euk
+2026-05-12 15:42:12 - INFO - [OK] Model trained: benoliver999-20100207-euk | Features: (2043, 40) | Audio files: 5
+2026-05-12 15:42:12 - DEBUG - Processing speaker: Berrym-20101102-aiv
+2026-05-12 15:42:14 - INFO - [OK] Model trained: Berrym-20101102-aiv | Features: (3031, 40) | Audio files: 5
+2026-05-12 15:42:14 - DEBUG - Processing speaker: Beverage-can_stove
+2026-05-12 15:42:24 - INFO - [OK] Model trained: Beverage-can_stove | Features: (29970, 40) | Audio files: 30
+2026-05-12 15:42:24 - DEBUG - Processing speaker: BFG-20120316-bdl
+2026-05-12 15:42:25 - INFO - [OK] Model trained: BFG-20120316-bdl | Features: (2607, 40) | Audio files: 5
+2026-05-12 15:42:25 - DEBUG - Processing speaker: bhart-20100106-djk
+2026-05-12 15:42:26 - INFO - [OK] Model trained: bhart-20100106-djk | Features: (2432, 40) | Audio files: 5
+2026-05-12 15:42:26 - DEBUG - Processing speaker: bhavanikrishna-20100108-kth
+2026-05-12 15:42:27 - INFO - [OK] Model trained: bhavanikrishna-20100108-kth | Features: (3043, 40) | Audio files: 5
+2026-05-12 15:42:27 - DEBUG - Processing speaker: BhushanNKIITBombay-20140219-bbj
+2026-05-12 15:42:29 - INFO - [OK] Model trained: BhushanNKIITBombay-20140219-bbj | Features: (4030, 40) | Audio files: 5
+2026-05-12 15:42:29 - DEBUG - Processing speaker: bhuvan-20091111-cil
+2026-05-12 15:42:30 - INFO - [OK] Model trained: bhuvan-20091111-cil | Features: (3263, 40) | Audio files: 5
+2026-05-12 15:42:30 - DEBUG - Processing speaker: bigmbywater-20100821-atk
+2026-05-12 15:42:31 - INFO - [OK] Model trained: bigmbywater-20100821-atk | Features: (2156, 40) | Audio files: 5
+2026-05-12 15:42:31 - DEBUG - Processing speaker: BigMick-20090919-pvv
+2026-05-12 15:42:32 - INFO - [OK] Model trained: BigMick-20090919-pvv | Features: (1967, 40) | Audio files: 5
+2026-05-12 15:42:32 - DEBUG - Processing speaker: BillMorgan-20120306-aef
+2026-05-12 15:42:33 - INFO - [OK] Model trained: BillMorgan-20120306-aef | Features: (3406, 40) | Audio files: 5
+2026-05-12 15:42:33 - DEBUG - Processing speaker: Bitbrit-20090528-fsw
+2026-05-12 15:42:34 - INFO - [OK] Model trained: Bitbrit-20090528-fsw | Features: (1894, 40) | Audio files: 5
+2026-05-12 15:42:34 - DEBUG - Processing speaker: Blackdrive-20080605-vwx
+2026-05-12 15:42:36 - INFO - [OK] Model trained: Blackdrive-20080605-vwx | Features: (2494, 40) | Audio files: 5
+2026-05-12 15:42:36 - DEBUG - Processing speaker: Blenderkitty-20090615-qcv
+2026-05-12 15:42:37 - INFO - [OK] Model trained: Blenderkitty-20090615-qcv | Features: (2206, 40) | Audio files: 5
+2026-05-12 15:42:37 - DEBUG - Processing speaker: BlindPilot-20100610-ama
+2026-05-12 15:42:38 - INFO - [OK] Model trained: BlindPilot-20100610-ama | Features: (3018, 40) | Audio files: 5
+2026-05-12 15:42:38 - DEBUG - Processing speaker: blood-20100308-gbb
+2026-05-12 15:42:40 - INFO - [OK] Model trained: blood-20100308-gbb | Features: (2606, 40) | Audio files: 5
+2026-05-12 15:42:40 - DEBUG - Processing speaker: bloomtom-20080612-mvm
+2026-05-12 15:42:41 - INFO - [OK] Model trained: bloomtom-20080612-mvm | Features: (1727, 40) | Audio files: 5
+2026-05-12 15:42:41 - DEBUG - Processing speaker: BlueAgent-20120819-dok
+2026-05-12 15:42:42 - INFO - [OK] Model trained: BlueAgent-20120819-dok | Features: (2193, 40) | Audio files: 5
+2026-05-12 15:42:42 - DEBUG - Processing speaker: BlueB-20090727-ckj
+2026-05-12 15:42:43 - INFO - [OK] Model trained: BlueB-20090727-ckj | Features: (1335, 40) | Audio files: 5
+2026-05-12 15:42:43 - DEBUG - Processing speaker: bluefox83-20080413-bwq
+2026-05-12 15:42:46 - INFO - [OK] Model trained: bluefox83-20080413-bwq | Features: (7464, 40) | Audio files: 13
+2026-05-12 15:42:46 - DEBUG - Processing speaker: bluepeppers-20091030-kqs
+2026-05-12 15:42:47 - INFO - [OK] Model trained: bluepeppers-20091030-kqs | Features: (2843, 40) | Audio files: 5
+2026-05-12 15:42:47 - DEBUG - Processing speaker: bluSch-20100525-bqg
+2026-05-12 15:42:48 - INFO - [OK] Model trained: bluSch-20100525-bqg | Features: (2196, 40) | Audio files: 5
+2026-05-12 15:42:48 - DEBUG - Processing speaker: Bob-20100106-mwu
+2026-05-12 15:42:49 - INFO - [OK] Model trained: Bob-20100106-mwu | Features: (2257, 40) | Audio files: 5
+2026-05-12 15:42:49 - DEBUG - Processing speaker: BobHallstrom-20150105-tmy
+2026-05-12 15:42:51 - INFO - [OK] Model trained: BobHallstrom-20150105-tmy | Features: (5156, 40) | Audio files: 5
+2026-05-12 15:42:51 - DEBUG - Processing speaker: bobriva123-20100611-cuz
+2026-05-12 15:42:52 - INFO - [OK] Model trained: bobriva123-20100611-cuz | Features: (3049, 40) | Audio files: 4
+2026-05-12 15:42:52 - DEBUG - Processing speaker: bonzer-20090919-btg
+2026-05-12 15:42:53 - INFO - [OK] Model trained: bonzer-20090919-btg | Features: (1794, 40) | Audio files: 5
+2026-05-12 15:42:53 - DEBUG - Processing speaker: Davy-Crockett
+2026-05-12 15:43:08 - INFO - [OK] Model trained: Davy-Crockett | Features: (49975, 40) | Audio files: 25
+2026-05-12 15:44:07 - INFO - [OK] UBM trained | Features: (721306, 40)
+2026-05-12 15:44:07 - INFO - ============================================================
+2026-05-12 15:44:07 - INFO - TRAINING SUMMARY
+2026-05-12 15:44:07 - INFO - ============================================================
+2026-05-12 15:44:07 - INFO - Speakers trained:    100
+2026-05-12 15:44:07 - INFO - Audio files:         823
+2026-05-12 15:44:07 - INFO - Total features:      8017121
+2026-05-12 15:44:07 - INFO - Training time:       302.12s
+2026-05-12 15:44:07 - INFO - ============================================================
+2026-05-12 15:44:07 - INFO - Metrics saved for stage: training_complete
+2026-05-12 15:44:07 - INFO - Summary saved: results\gmm_ubm_n-to-n_20260512_153905\summary.json
+2026-05-12 15:44:07 - INFO - Starting testing phase...
+2026-05-12 15:44:07 - INFO - ============================================================
+2026-05-12 15:44:07 - INFO - GMM-UBM MODEL EVALUATION
+2026-05-12 15:44:07 - INFO - ============================================================
+2026-05-12 15:44:07 - INFO - Models folder: speaker_models
+2026-05-12 15:44:07 - INFO - Test folder: ../data/n-to-n\test
+2026-05-12 15:44:07 - INFO - Threshold: -25
+2026-05-12 15:44:10 - INFO - [OK] Loaded 100 speaker models
+2026-05-12 15:44:10 - INFO - [OK] Loaded UBM model
+2026-05-12 15:44:10 - DEBUG - Processing speaker: 103-i103
+2026-05-12 15:44:13 - INFO - [OK] CORRECT: 103-i103        -> 103-i103        (LLR=   3.66, GMM= -23.63)
+2026-05-12 15:44:13 - DEBUG - Processing speaker: 1034-a1034
+2026-05-12 15:44:15 - INFO - [OK] CORRECT: 1034-a1034      -> 1034-a1034      (LLR=   1.38, GMM= -24.11)
+2026-05-12 15:44:15 - DEBUG - Processing speaker: 1040-b1040
+2026-05-12 15:44:16 - INFO - [OK] CORRECT: 1040-b1040      -> 1040-b1040      (LLR=   1.96, GMM= -24.95)
+2026-05-12 15:44:16 - DEBUG - Processing speaker: 1069-c1069
+2026-05-12 15:44:19 - INFO - [OK] CORRECT: 1069-c1069      -> 1069-c1069      (LLR=   3.49, GMM= -23.50)
+2026-05-12 15:44:19 - DEBUG - Processing speaker: 1081-d1081
+2026-05-12 15:44:20 - INFO - [OK] CORRECT: 1081-d1081      -> 1081-d1081      (LLR=   3.12, GMM= -21.66)
+2026-05-12 15:44:20 - DEBUG - Processing speaker: 118-a118
+2026-05-12 15:44:23 - INFO - [OK] CORRECT: 118-a118        -> 118-a118        (LLR=   2.65, GMM= -22.93)
+2026-05-12 15:44:23 - DEBUG - Processing speaker: 125-a125
+2026-05-12 15:44:25 - INFO - [OK] CORRECT: 125-a125        -> 125-a125        (LLR=   2.58, GMM= -23.06)
+2026-05-12 15:44:25 - DEBUG - Processing speaker: 19-a19
+2026-05-12 15:44:27 - INFO - [OK] CORRECT: 19-a19          -> 19-a19          (LLR=   2.57, GMM= -22.27)
+2026-05-12 15:44:27 - DEBUG - Processing speaker: 26-b26
+2026-05-12 15:44:29 - INFO - [OK] CORRECT: 26-b26          -> 26-b26          (LLR=   2.99, GMM= -24.24)
+2026-05-12 15:44:29 - DEBUG - Processing speaker: 27-c27
+2026-05-12 15:44:31 - INFO - [OK] CORRECT: 27-c27          -> 27-c27          (LLR=   2.58, GMM= -24.33)
+2026-05-12 15:44:31 - DEBUG - Processing speaker: 32-d32
+2026-05-12 15:44:32 - INFO - [OK] CORRECT: 32-d32          -> 32-d32          (LLR=   3.42, GMM= -24.01)
+2026-05-12 15:44:32 - DEBUG - Processing speaker: 39-e39
+2026-05-12 15:44:34 - INFO - [OK] CORRECT: 39-e39          -> 39-e39          (LLR=   3.83, GMM= -21.67)
+2026-05-12 15:44:34 - DEBUG - Processing speaker: 40-f40
+2026-05-12 15:44:37 - INFO - [OK] CORRECT: 40-f40          -> 40-f40          (LLR=   4.04, GMM= -22.38)
+2026-05-12 15:44:37 - DEBUG - Processing speaker: 60-g60
+2026-05-12 15:44:39 - INFO - [OK] CORRECT: 60-g60          -> 60-g60          (LLR=   3.58, GMM= -23.42)
+2026-05-12 15:44:39 - DEBUG - Processing speaker: 78-h78
+2026-05-12 15:44:41 - INFO - [OK] CORRECT: 78-h78          -> 78-h78          (LLR=   1.76, GMM= -23.61)
+2026-05-12 15:44:41 - DEBUG - Processing speaker: 83-f83
+2026-05-12 15:44:43 - INFO - [OK] CORRECT: 83-f83          -> 83-f83          (LLR=   2.79, GMM= -24.04)
+2026-05-12 15:44:43 - DEBUG - Processing speaker: 87-g87
+2026-05-12 15:44:46 - INFO - [OK] CORRECT: 87-g87          -> 87-g87          (LLR=   3.13, GMM= -24.42)
+2026-05-12 15:44:46 - DEBUG - Processing speaker: 89-h89
+2026-05-12 15:44:48 - INFO - [OK] CORRECT: 89-h89          -> 89-h89          (LLR=   3.65, GMM= -23.03)
+2026-05-12 15:44:48 - DEBUG - Processing speaker: Action-potential
+2026-05-12 15:45:00 - INFO - [OK] CORRECT: Action-potential -> Action-potential (LLR=   3.36, GMM= -23.50)
+2026-05-12 15:45:00 - DEBUG - Processing speaker: Adrianne-Wadewitz
+2026-05-12 15:45:25 - INFO - [OK] CORRECT: Adrianne-Wadewitz -> Adrianne-Wadewitz (LLR=   4.57, GMM= -15.45)
+2026-05-12 15:45:25 - DEBUG - Processing speaker: Air-tractor_sledge
+2026-05-12 15:45:45 - INFO - [OK] CORRECT: Air-tractor_sledge -> Air-tractor_sledge (LLR=   3.04, GMM= -22.64)
+2026-05-12 15:45:45 - DEBUG - Processing speaker: Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 15:45:55 - INFO - [OK] CORRECT: Alan-Harper_(Two_and_a_Half_Men) -> Alan-Harper_(Two_and_a_Half_Men) (LLR=   5.06, GMM= -17.28)
+2026-05-12 15:45:55 - DEBUG - Processing speaker: Ali-G
+2026-05-12 15:46:14 - INFO - [OK] CORRECT: Ali-G           -> Ali-G           (LLR=   2.74, GMM= -20.79)
+2026-05-12 15:46:14 - DEBUG - Processing speaker: Alleyway-1
+2026-05-12 15:46:34 - INFO - [OK] CORRECT: Alleyway-1      -> Alleyway-1      (LLR=   3.44, GMM= -21.33)
+2026-05-12 15:46:34 - DEBUG - Processing speaker: Ana-Lucia_Cortez
+2026-05-12 15:46:47 - INFO - [OK] CORRECT: Ana-Lucia_Cortez -> Ana-Lucia_Cortez (LLR=   4.29, GMM= -16.55)
+2026-05-12 15:46:47 - DEBUG - Processing speaker: anthonyschaller-20071221-
+2026-05-12 15:46:47 - INFO - [OK] CORRECT: anthonyschaller-20071221- -> anthonyschaller-20071221- (LLR=   2.14, GMM= -20.81)
+2026-05-12 15:46:47 - DEBUG - Processing speaker: Apple_Eater-20091026-yul
+2026-05-12 15:46:48 - INFO - [OK] CORRECT: Apple_Eater-20091026-yul -> Apple_Eater-20091026-yul (LLR=   5.17, GMM= -22.32)
+2026-05-12 15:46:48 - DEBUG - Processing speaker: Ara-20091021-wpl
+2026-05-12 15:46:50 - INFO - [OK] CORRECT: Ara-20091021-wpl -> Ara-20091021-wpl (LLR=   3.39, GMM= -19.55)
+2026-05-12 15:46:50 - DEBUG - Processing speaker: Ara2-20-vni
+2026-05-12 15:46:51 - INFO - [OK] CORRECT: Ara2-20-vni     -> Ara2-20-vni     (LLR=   3.62, GMM= -19.21)
+2026-05-12 15:46:51 - DEBUG - Processing speaker: argail-20090722-gau
+2026-05-12 15:46:52 - INFO - [OK] CORRECT: argail-20090722-gau -> argail-20090722-gau (LLR=   2.34, GMM= -24.73)
+2026-05-12 15:46:52 - DEBUG - Processing speaker: ariyan-20120801-gra
+2026-05-12 15:46:52 - INFO - - NO MATCH: ariyan-20120801-gra -> ariyan-20120801-gra (LLR=   1.01, GMM= -25.35)
+2026-05-12 15:46:52 - DEBUG - Processing speaker: arjuan-20100820-acz
+2026-05-12 15:46:53 - INFO - [OK] CORRECT: arjuan-20100820-acz -> arjuan-20100820-acz (LLR=   3.80, GMM= -19.62)
+2026-05-12 15:46:53 - DEBUG - Processing speaker: armond-20121229-wca
+2026-05-12 15:46:55 - INFO - [OK] CORRECT: armond-20121229-wca -> armond-20121229-wca (LLR=   2.01, GMM= -19.95)
+2026-05-12 15:46:55 - DEBUG - Processing speaker: Artem-20121123-ebd
+2026-05-12 15:46:56 - INFO - [OK] CORRECT: Artem-20121123-ebd -> Artem-20121123-ebd (LLR=   3.43, GMM= -22.06)
+2026-05-12 15:46:56 - DEBUG - Processing speaker: arthur-20130509-yjj
+2026-05-12 15:46:57 - INFO - [OK] CORRECT: arthur-20130509-yjj -> arthur-20130509-yjj (LLR=   3.16, GMM= -19.30)
+2026-05-12 15:46:57 - DEBUG - Processing speaker: artk-20101225-kvd
+2026-05-12 15:46:58 - INFO - [OK] CORRECT: artk-20101225-kvd -> artk-20101225-kvd (LLR=   4.08, GMM= -22.58)
+2026-05-12 15:46:58 - DEBUG - Processing speaker: arun-20100928-usw
+2026-05-12 15:46:59 - INFO - [OK] CORRECT: arun-20100928-usw -> arun-20100928-usw (LLR=   3.58, GMM= -19.13)
+2026-05-12 15:46:59 - DEBUG - Processing speaker: arvala-20110103-nlb
+2026-05-12 15:47:00 - INFO - [OK] CORRECT: arvala-20110103-nlb -> arvala-20110103-nlb (LLR=   1.73, GMM= -20.07)
+2026-05-12 15:47:00 - DEBUG - Processing speaker: asalkeld-20111226-ets
+2026-05-12 15:47:01 - INFO - [OK] CORRECT: asalkeld-20111226-ets -> asalkeld-20111226-ets (LLR=   3.98, GMM= -22.78)
+2026-05-12 15:47:01 - DEBUG - Processing speaker: asladic-20100311-bfp
+2026-05-12 15:47:01 - INFO - [OK] CORRECT: asladic-20100311-bfp -> asladic-20100311-bfp (LLR=   1.75, GMM= -20.59)
+2026-05-12 15:47:01 - DEBUG - Processing speaker: AslakKnutsen-20140314-bje
+2026-05-12 15:47:02 - INFO - [OK] CORRECT: AslakKnutsen-20140314-bje -> AslakKnutsen-20140314-bje (LLR=   1.82, GMM= -21.57)
+2026-05-12 15:47:02 - DEBUG - Processing speaker: AslakKnutsen-20140314-crb
+2026-05-12 15:47:03 - INFO - [ERR] INCORRECT: AslakKnutsen-20140314-crb -> AslakKnutsen-20140314-bje (LLR=   0.97, GMM= -22.64)
+2026-05-12 15:47:03 - DEBUG - Processing speaker: asp-20091228-inn
+2026-05-12 15:47:04 - INFO - [OK] CORRECT: asp-20091228-inn -> asp-20091228-inn (LLR=   3.00, GMM= -19.29)
+2026-05-12 15:47:04 - DEBUG - Processing speaker: asp-20091228-qtl
+2026-05-12 15:47:05 - INFO - [ERR] INCORRECT: asp-20091228-qtl -> asp-20091228-inn (LLR=   2.27, GMM= -19.98)
+2026-05-12 15:47:05 - DEBUG - Processing speaker: AT-20130718-lws
+2026-05-12 15:47:06 - INFO - [OK] CORRECT: AT-20130718-lws -> AT-20130718-lws (LLR=   2.62, GMM= -22.44)
+2026-05-12 15:47:06 - DEBUG - Processing speaker: atamur-20090211-wdo
+2026-05-12 15:47:06 - INFO - - NO MATCH: atamur-20090211-wdo -> atamur-20090211-wdo (LLR=   1.06, GMM= -27.02)
+2026-05-12 15:47:06 - DEBUG - Processing speaker: ataru80-20120624-hfe
+2026-05-12 15:47:08 - INFO - [OK] CORRECT: ataru80-20120624-hfe -> ataru80-20120624-hfe (LLR=   2.75, GMM= -19.52)
+2026-05-12 15:47:08 - DEBUG - Processing speaker: atterer-01202007-a
+2026-05-12 15:47:11 - INFO - [OK] CORRECT: atterer-01202007-a -> atterer-01202007-a (LLR=   3.89, GMM= -18.80)
+2026-05-12 15:47:11 - DEBUG - Processing speaker: atterer-01202007-b
+2026-05-12 15:47:15 - INFO - [OK] CORRECT: atterer-01202007-b -> atterer-01202007-b (LLR=   2.95, GMM= -20.61)
+2026-05-12 15:47:15 - DEBUG - Processing speaker: audioodyssey-20081109-rew
+2026-05-12 15:47:16 - INFO - [OK] CORRECT: audioodyssey-20081109-rew -> audioodyssey-20081109-rew (LLR=   1.90, GMM= -21.41)
+2026-05-12 15:47:16 - DEBUG - Processing speaker: avsa242-20071208
+2026-05-12 15:47:21 - INFO - [OK] CORRECT: avsa242-20071208 -> avsa242-20071208 (LLR=   4.80, GMM= -15.69)
+2026-05-12 15:47:21 - DEBUG - Processing speaker: ax-20150219-yhd
+2026-05-12 15:47:22 - INFO - [OK] CORRECT: ax-20150219-yhd -> ax-20150219-yhd (LLR=   2.60, GMM= -18.77)
+2026-05-12 15:47:22 - DEBUG - Processing speaker: axllaruse-20140112-ced
+2026-05-12 15:47:23 - INFO - [OK] CORRECT: axllaruse-20140112-ced -> axllaruse-20140112-ced (LLR=   3.70, GMM= -20.75)
+2026-05-12 15:47:23 - DEBUG - Processing speaker: azmisov-20140428-cyp
+2026-05-12 15:47:23 - INFO - [OK] CORRECT: azmisov-20140428-cyp -> azmisov-20140428-cyp (LLR=   2.38, GMM= -21.80)
+2026-05-12 15:47:23 - DEBUG - Processing speaker: B-20091220-vus
+2026-05-12 15:47:24 - INFO - [OK] CORRECT: B-20091220-vus  -> B-20091220-vus  (LLR=   4.20, GMM= -17.77)
+2026-05-12 15:47:24 - DEBUG - Processing speaker: bachroxx-20080119-tuu
+2026-05-12 15:47:25 - INFO - [OK] CORRECT: bachroxx-20080119-tuu -> bachroxx-20080119-tuu (LLR=   2.16, GMM= -23.68)
+2026-05-12 15:47:25 - DEBUG - Processing speaker: Baden-Powell_House
+2026-05-12 15:47:42 - INFO - [OK] CORRECT: Baden-Powell_House -> Baden-Powell_House (LLR=  13.09, GMM= -10.92)
+2026-05-12 15:47:42 - DEBUG - Processing speaker: bae-20110617-vdq
+2026-05-12 15:47:43 - INFO - [OK] CORRECT: bae-20110617-vdq -> bae-20110617-vdq (LLR=   5.75, GMM= -20.61)
+2026-05-12 15:47:43 - DEBUG - Processing speaker: Bahoke-20130721-brs
+2026-05-12 15:47:43 - INFO - [OK] CORRECT: Bahoke-20130721-brs -> Bahoke-20130721-brs (LLR=   0.48, GMM= -22.46)
+2026-05-12 15:47:43 - DEBUG - Processing speaker: Bareford-20101110-qkl
+2026-05-12 15:47:44 - INFO - [OK] CORRECT: Bareford-20101110-qkl -> Bareford-20101110-qkl (LLR=   1.96, GMM= -23.06)
+2026-05-12 15:47:44 - DEBUG - Processing speaker: bart-20090807-ufp
+2026-05-12 15:47:45 - INFO - [OK] CORRECT: bart-20090807-ufp -> bart-20090807-ufp (LLR=   4.06, GMM= -19.31)
+2026-05-12 15:47:45 - DEBUG - Processing speaker: Bassel-20120209-xky
+2026-05-12 15:47:46 - INFO - [OK] CORRECT: Bassel-20120209-xky -> Bassel-20120209-xky (LLR=   2.18, GMM= -21.68)
+2026-05-12 15:47:46 - DEBUG - Processing speaker: bdutta-20090502-crj
+2026-05-12 15:47:46 - INFO - [OK] CORRECT: bdutta-20090502-crj -> bdutta-20090502-crj (LLR=   3.48, GMM= -20.47)
+2026-05-12 15:47:46 - DEBUG - Processing speaker: beady-20100219-xpq
+2026-05-12 15:47:47 - INFO - [OK] CORRECT: beady-20100219-xpq -> beady-20100219-xpq (LLR=   2.91, GMM= -20.00)
+2026-05-12 15:47:47 - DEBUG - Processing speaker: bebe-20100419-gpw
+2026-05-12 15:47:48 - INFO - [OK] CORRECT: bebe-20100419-gpw -> bebe-20100419-gpw (LLR=   3.33, GMM= -20.38)
+2026-05-12 15:47:48 - DEBUG - Processing speaker: becz03-20121205-xvx
+2026-05-12 15:47:49 - INFO - [OK] CORRECT: becz03-20121205-xvx -> becz03-20121205-xvx (LLR=   4.57, GMM= -16.40)
+2026-05-12 15:47:49 - DEBUG - Processing speaker: belmontguy-20110426-geu
+2026-05-12 15:47:50 - INFO - [OK] CORRECT: belmontguy-20110426-geu -> belmontguy-20110426-geu (LLR=   1.47, GMM= -22.62)
+2026-05-12 15:47:50 - DEBUG - Processing speaker: ben-20090326-cpr
+2026-05-12 15:47:50 - INFO - [OK] CORRECT: ben-20090326-cpr -> ben-20090326-cpr (LLR=   6.96, GMM= -14.84)
+2026-05-12 15:47:50 - DEBUG - Processing speaker: bencoder-20080418-iev
+2026-05-12 15:47:51 - INFO - [OK] CORRECT: bencoder-20080418-iev -> bencoder-20080418-iev (LLR=   5.14, GMM= -17.38)
+2026-05-12 15:47:51 - DEBUG - Processing speaker: bendauphinee-20100423-dtj
+2026-05-12 15:47:52 - INFO - [OK] CORRECT: bendauphinee-20100423-dtj -> bendauphinee-20100423-dtj (LLR=   1.88, GMM= -19.78)
+2026-05-12 15:47:52 - DEBUG - Processing speaker: bendra-20141108-xnz
+2026-05-12 15:47:53 - INFO - [OK] CORRECT: bendra-20141108-xnz -> bendra-20141108-xnz (LLR=   2.64, GMM= -21.42)
+2026-05-12 15:47:53 - DEBUG - Processing speaker: bennmann-20091102-apc
+2026-05-12 15:47:53 - INFO - [OK] CORRECT: bennmann-20091102-apc -> bennmann-20091102-apc (LLR=   3.63, GMM= -19.01)
+2026-05-12 15:47:53 - DEBUG - Processing speaker: benob-20090314-wzw
+2026-05-12 15:47:55 - INFO - [OK] CORRECT: benob-20090314-wzw -> benob-20090314-wzw (LLR=   3.14, GMM= -20.50)
+2026-05-12 15:47:55 - DEBUG - Processing speaker: benoliver999-20100207-euk
+2026-05-12 15:47:56 - INFO - [OK] CORRECT: benoliver999-20100207-euk -> benoliver999-20100207-euk (LLR=   1.92, GMM= -18.92)
+2026-05-12 15:47:56 - DEBUG - Processing speaker: Berrym-20101102-aiv
+2026-05-12 15:47:56 - INFO - [OK] CORRECT: Berrym-20101102-aiv -> Berrym-20101102-aiv (LLR=   2.36, GMM= -19.19)
+2026-05-12 15:47:56 - DEBUG - Processing speaker: Beverage-can_stove
+2026-05-12 15:48:09 - INFO - [OK] CORRECT: Beverage-can_stove -> Beverage-can_stove (LLR=   3.59, GMM= -20.21)
+2026-05-12 15:48:09 - DEBUG - Processing speaker: BFG-20120316-bdl
+2026-05-12 15:48:10 - INFO - [OK] CORRECT: BFG-20120316-bdl -> BFG-20120316-bdl (LLR=   4.43, GMM= -17.17)
+2026-05-12 15:48:10 - DEBUG - Processing speaker: bhart-20100106-djk
+2026-05-12 15:48:11 - INFO - [OK] CORRECT: bhart-20100106-djk -> bhart-20100106-djk (LLR=   4.09, GMM= -16.34)
+2026-05-12 15:48:11 - DEBUG - Processing speaker: bhavanikrishna-20100108-kth
+2026-05-12 15:48:12 - INFO - [OK] CORRECT: bhavanikrishna-20100108-kth -> bhavanikrishna-20100108-kth (LLR=   3.72, GMM= -21.92)
+2026-05-12 15:48:12 - DEBUG - Processing speaker: BhushanNKIITBombay-20140219-bbj
+2026-05-12 15:48:13 - INFO - [OK] CORRECT: BhushanNKIITBombay-20140219-bbj -> BhushanNKIITBombay-20140219-bbj (LLR=   1.92, GMM= -24.74)
+2026-05-12 15:48:13 - DEBUG - Processing speaker: bhuvan-20091111-cil
+2026-05-12 15:48:14 - INFO - [OK] CORRECT: bhuvan-20091111-cil -> bhuvan-20091111-cil (LLR=   2.58, GMM= -20.55)
+2026-05-12 15:48:14 - DEBUG - Processing speaker: bigmbywater-20100821-atk
+2026-05-12 15:48:15 - INFO - [OK] CORRECT: bigmbywater-20100821-atk -> bigmbywater-20100821-atk (LLR=   1.42, GMM= -22.02)
+2026-05-12 15:48:15 - DEBUG - Processing speaker: BigMick-20090919-pvv
+2026-05-12 15:48:15 - INFO - [OK] CORRECT: BigMick-20090919-pvv -> BigMick-20090919-pvv (LLR=   0.94, GMM= -24.91)
+2026-05-12 15:48:15 - DEBUG - Processing speaker: BillMorgan-20120306-aef
+2026-05-12 15:48:16 - INFO - [OK] CORRECT: BillMorgan-20120306-aef -> BillMorgan-20120306-aef (LLR=   2.86, GMM= -18.84)
+2026-05-12 15:48:16 - DEBUG - Processing speaker: Bitbrit-20090528-fsw
+2026-05-12 15:48:17 - INFO - [OK] CORRECT: Bitbrit-20090528-fsw -> Bitbrit-20090528-fsw (LLR=   1.55, GMM= -24.98)
+2026-05-12 15:48:17 - DEBUG - Processing speaker: Blackdrive-20080605-vwx
+2026-05-12 15:48:18 - INFO - [OK] CORRECT: Blackdrive-20080605-vwx -> Blackdrive-20080605-vwx (LLR=   4.51, GMM= -16.93)
+2026-05-12 15:48:18 - DEBUG - Processing speaker: Blenderkitty-20090615-qcv
+2026-05-12 15:48:19 - INFO - [OK] CORRECT: Blenderkitty-20090615-qcv -> Blenderkitty-20090615-qcv (LLR=   2.90, GMM= -19.48)
+2026-05-12 15:48:19 - DEBUG - Processing speaker: BlindPilot-20100610-ama
+2026-05-12 15:48:20 - INFO - [OK] CORRECT: BlindPilot-20100610-ama -> BlindPilot-20100610-ama (LLR=   2.02, GMM= -20.88)
+2026-05-12 15:48:20 - DEBUG - Processing speaker: blood-20100308-gbb
+2026-05-12 15:48:21 - INFO - [OK] CORRECT: blood-20100308-gbb -> blood-20100308-gbb (LLR=   2.00, GMM= -21.34)
+2026-05-12 15:48:21 - DEBUG - Processing speaker: bloomtom-20080612-mvm
+2026-05-12 15:48:21 - INFO - [OK] CORRECT: bloomtom-20080612-mvm -> bloomtom-20080612-mvm (LLR=   2.02, GMM= -23.02)
+2026-05-12 15:48:21 - DEBUG - Processing speaker: BlueAgent-20120819-dok
+2026-05-12 15:48:22 - INFO - [OK] CORRECT: BlueAgent-20120819-dok -> BlueAgent-20120819-dok (LLR=   2.29, GMM= -22.54)
+2026-05-12 15:48:22 - DEBUG - Processing speaker: BlueB-20090727-ckj
+2026-05-12 15:48:23 - INFO - - NO MATCH: BlueB-20090727-ckj -> BlueB-20090727-ckj (LLR=   0.08, GMM= -26.54)
+2026-05-12 15:48:23 - DEBUG - Processing speaker: bluefox83-20080413-bwq
+2026-05-12 15:48:25 - INFO - [OK] CORRECT: bluefox83-20080413-bwq -> bluefox83-20080413-bwq (LLR=   2.86, GMM= -21.98)
+2026-05-12 15:48:25 - DEBUG - Processing speaker: bluepeppers-20091030-kqs
+2026-05-12 15:48:26 - INFO - [OK] CORRECT: bluepeppers-20091030-kqs -> bluepeppers-20091030-kqs (LLR=   0.54, GMM= -23.22)
+2026-05-12 15:48:26 - DEBUG - Processing speaker: bluSch-20100525-bqg
+2026-05-12 15:48:28 - INFO - [OK] CORRECT: bluSch-20100525-bqg -> bluSch-20100525-bqg (LLR=   3.17, GMM= -23.34)
+2026-05-12 15:48:28 - DEBUG - Processing speaker: Bob-20100106-mwu
+2026-05-12 15:48:29 - INFO - [OK] CORRECT: Bob-20100106-mwu -> Bob-20100106-mwu (LLR=   1.34, GMM= -22.46)
+2026-05-12 15:48:29 - DEBUG - Processing speaker: BobHallstrom-20150105-tmy
+2026-05-12 15:48:30 - INFO - [OK] CORRECT: BobHallstrom-20150105-tmy -> BobHallstrom-20150105-tmy (LLR=  10.28, GMM=  -6.25)
+2026-05-12 15:48:30 - DEBUG - Processing speaker: bobriva123-20100611-cuz
+2026-05-12 15:48:32 - INFO - [OK] CORRECT: bobriva123-20100611-cuz -> bobriva123-20100611-cuz (LLR=   3.15, GMM= -20.78)
+2026-05-12 15:48:32 - DEBUG - Processing speaker: bonzer-20090919-btg
+2026-05-12 15:48:32 - INFO - [OK] CORRECT: bonzer-20090919-btg -> bonzer-20090919-btg (LLR=   2.10, GMM= -23.03)
+2026-05-12 15:48:32 - DEBUG - Processing speaker: Davy-Crockett
+2026-05-12 15:48:54 - INFO - [OK] CORRECT: Davy-Crockett   -> Davy-Crockett   (LLR=   4.42, GMM= -12.31)
+2026-05-12 15:48:54 - INFO - ============================================================
+2026-05-12 15:48:54 - INFO - EVALUATION SUMMARY
+2026-05-12 15:48:54 - INFO - ============================================================
+2026-05-12 15:48:54 - INFO - Total processed:       100
+2026-05-12 15:48:54 - INFO - Correct matches:       95
+2026-05-12 15:48:54 - INFO - Incorrect matches:     2
+2026-05-12 15:48:54 - INFO - No match found:        3
+2026-05-12 15:48:54 - INFO - Accuracy:              0.9500 (95.00%)
+2026-05-12 15:48:54 - INFO - FNMR:                  0.0300
+2026-05-12 15:48:54 - INFO - FMR:                   0.0200
+2026-05-12 15:48:54 - INFO - Evaluation time:       287.19s
+2026-05-12 15:48:54 - INFO - ============================================================
+2026-05-12 15:48:54 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 15:48:54 - INFO - Summary saved: results\gmm_ubm_n-to-n_20260512_153905\summary.json
+2026-05-12 15:48:54 - INFO - 
+[OK] GMM-UBM experiment completed successfully
+

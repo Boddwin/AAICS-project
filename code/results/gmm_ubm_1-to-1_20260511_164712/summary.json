@@ -1,0 +1,13 @@
+{
+  "total": 1,
+  "correct": 1,
+  "incorrect": 0,
+  "notmatched": 0,
+  "accuracy": 1.0,
+  "fnmr": 0.0,
+  "fmr": 0.0,
+  "evaluation_time_seconds": 2.3313543796539307,
+  "threshold": -25,
+  "stage": "evaluation_complete",
+  "timestamp": "2026-05-11T16:47:22.249881"
+}

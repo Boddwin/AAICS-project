@@ -1,0 +1,8 @@
+{
+  "speakers_trained": 1,
+  "audio_files": 10,
+  "total_features": 54945,
+  "training_time_seconds": 7.11032247543335,
+  "stage": "training_complete",
+  "timestamp": "2026-05-10T16:45:42.702424"
+}

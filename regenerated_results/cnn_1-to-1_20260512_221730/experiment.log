@@ -1,0 +1,46 @@
+2026-05-12 22:17:30 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\cnn_1-to-1_20260512_221730\config.json
+2026-05-12 22:17:30 - INFO - ============================================================
+2026-05-12 22:17:30 - INFO - CNN MODEL TRAINING
+2026-05-12 22:17:30 - INFO - ============================================================
+2026-05-12 22:17:31 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:17:31 - INFO - Loaded 10 samples from 10 files
+2026-05-12 22:17:31 - INFO - Classes: 1
+2026-05-12 22:17:31 - INFO - Input shape: (10, 300, 40, 1)
+2026-05-12 22:17:31 - INFO - Building CNN model...
+2026-05-12 22:17:31 - INFO - Training for 30 epochs with batch size 8...
+2026-05-12 22:17:42 - INFO - ============================================================
+2026-05-12 22:17:42 - INFO - TRAINING SUMMARY
+2026-05-12 22:17:42 - INFO - ============================================================
+2026-05-12 22:17:42 - INFO - Classes:               1
+2026-05-12 22:17:42 - INFO - Training samples:      10
+2026-05-12 22:17:42 - INFO - Input shape:           (10, 300, 40, 1)
+2026-05-12 22:17:42 - INFO - Epochs:                30
+2026-05-12 22:17:42 - INFO - Batch size:            8
+2026-05-12 22:17:42 - INFO - Final train loss:      0.0000
+2026-05-12 22:17:42 - INFO - Final train accuracy:  0.0000
+2026-05-12 22:17:42 - INFO - Training time:         12.74s
+2026-05-12 22:17:42 - INFO - ============================================================
+2026-05-12 22:17:42 - INFO - Metrics saved for stage: training_complete
+2026-05-12 22:17:42 - INFO - ============================================================
+2026-05-12 22:17:42 - INFO - CNN MODEL EVALUATION
+2026-05-12 22:17:42 - INFO - ============================================================
+2026-05-12 22:17:44 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:17:44 - INFO - Loaded 10 test samples
+2026-05-12 22:17:44 - INFO - Making predictions...
+2026-05-12 22:17:44 - INFO - ============================================================
+2026-05-12 22:17:44 - INFO - EVALUATION SUMMARY
+2026-05-12 22:17:44 - INFO - ============================================================
+2026-05-12 22:17:44 - INFO - Total processed:       10
+2026-05-12 22:17:44 - INFO - Known speaker samples: 10
+2026-05-12 22:17:44 - INFO - Unknown speaker samples: 0
+2026-05-12 22:17:44 - INFO - Correct predictions:   10
+2026-05-12 22:17:44 - INFO - Incorrect predictions: 0
+2026-05-12 22:17:44 - INFO - False accepts:         0
+2026-05-12 22:17:44 - INFO - False rejects:         0
+2026-05-12 22:17:44 - INFO - Accuracy:              1.0000 (100.00%)
+2026-05-12 22:17:44 - INFO - FNMR:                  0.0000
+2026-05-12 22:17:44 - INFO - FMR:                   0.0000
+2026-05-12 22:17:44 - INFO - Evaluation time:       1.62s
+2026-05-12 22:17:44 - INFO - ============================================================
+2026-05-12 22:17:44 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 22:17:44 - INFO - Summary saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\cnn_1-to-1_20260512_221730\summary.json

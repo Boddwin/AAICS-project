@@ -1,0 +1,54 @@
+2026-05-12 15:36:32 - INFO - 
+======================================================================
+2026-05-12 15:36:32 - INFO - GMM-UBM EXPERIMENT: 1-to-1
+2026-05-12 15:36:32 - INFO - ======================================================================
+
+2026-05-12 15:36:32 - INFO - Starting training phase...
+2026-05-12 15:36:32 - INFO - Cleared previous models from speaker_models
+2026-05-12 15:36:32 - INFO - Cleared previous UBM from ubm_model
+2026-05-12 15:36:32 - INFO - ============================================================
+2026-05-12 15:36:32 - INFO - GMM-UBM MODEL TRAINING
+2026-05-12 15:36:32 - INFO - ============================================================
+2026-05-12 15:36:32 - INFO - Audio files path: ../data/1-to-1\train
+2026-05-12 15:36:32 - INFO - N components: 16
+2026-05-12 15:36:32 - DEBUG - Processing speaker: Action-potential
+2026-05-12 15:36:37 - INFO - [OK] Model trained: Action-potential | Features: (9990, 40) | Audio files: 10
+2026-05-12 15:36:38 - INFO - [OK] UBM trained | Features: (9990, 40)
+2026-05-12 15:36:38 - INFO - ============================================================
+2026-05-12 15:36:38 - INFO - TRAINING SUMMARY
+2026-05-12 15:36:38 - INFO - ============================================================
+2026-05-12 15:36:38 - INFO - Speakers trained:    1
+2026-05-12 15:36:38 - INFO - Audio files:         10
+2026-05-12 15:36:38 - INFO - Total features:      54945
+2026-05-12 15:36:38 - INFO - Training time:       6.44s
+2026-05-12 15:36:38 - INFO - ============================================================
+2026-05-12 15:36:38 - INFO - Metrics saved for stage: training_complete
+2026-05-12 15:36:38 - INFO - Summary saved: results\gmm_ubm_1-to-1_20260512_153632\summary.json
+2026-05-12 15:36:38 - INFO - Starting testing phase...
+2026-05-12 15:36:38 - INFO - ============================================================
+2026-05-12 15:36:38 - INFO - GMM-UBM MODEL EVALUATION
+2026-05-12 15:36:38 - INFO - ============================================================
+2026-05-12 15:36:38 - INFO - Models folder: speaker_models
+2026-05-12 15:36:38 - INFO - Test folder: ../data/1-to-1\test
+2026-05-12 15:36:38 - INFO - Threshold: -25
+2026-05-12 15:36:38 - INFO - [OK] Loaded 1 speaker models
+2026-05-12 15:36:38 - INFO - [OK] Loaded UBM model
+2026-05-12 15:36:38 - DEBUG - Processing speaker: Action-potential
+2026-05-12 15:36:41 - INFO - - NO MATCH: Action-potential -> Action-potential (LLR=  -0.03, GMM= -23.29)
+2026-05-12 15:36:41 - INFO - ============================================================
+2026-05-12 15:36:41 - INFO - EVALUATION SUMMARY
+2026-05-12 15:36:41 - INFO - ============================================================
+2026-05-12 15:36:41 - INFO - Total processed:       1
+2026-05-12 15:36:41 - INFO - Correct matches:       0
+2026-05-12 15:36:41 - INFO - Incorrect matches:     0
+2026-05-12 15:36:41 - INFO - No match found:        1
+2026-05-12 15:36:41 - INFO - Accuracy:              0.0000 (0.00%)
+2026-05-12 15:36:41 - INFO - FNMR:                  1.0000
+2026-05-12 15:36:41 - INFO - FMR:                   0.0000
+2026-05-12 15:36:41 - INFO - Evaluation time:       2.66s
+2026-05-12 15:36:41 - INFO - ============================================================
+2026-05-12 15:36:41 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 15:36:41 - INFO - Summary saved: results\gmm_ubm_1-to-1_20260512_153632\summary.json
+2026-05-12 15:36:41 - INFO - 
+[OK] GMM-UBM experiment completed successfully
+

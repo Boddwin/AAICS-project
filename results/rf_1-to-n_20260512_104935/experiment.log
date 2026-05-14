@@ -1,0 +1,38 @@
+2026-05-12 10:49:35 - INFO - Config saved: results\rf_1-to-n_20260512_104935\config.json
+2026-05-12 10:49:35 - INFO - ============================================================
+2026-05-12 10:49:35 - INFO - RANDOM FOREST MODEL TRAINING
+2026-05-12 10:49:35 - INFO - ============================================================
+2026-05-12 10:49:37 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 10:49:37 - INFO - Loaded 10 samples from 10 files
+2026-05-12 10:49:37 - INFO - Training Random Forest with 200 trees...
+2026-05-12 10:49:38 - INFO - ============================================================
+2026-05-12 10:49:38 - INFO - TRAINING SUMMARY
+2026-05-12 10:49:38 - INFO - ============================================================
+2026-05-12 10:49:38 - INFO - Speakers:              1
+2026-05-12 10:49:38 - INFO - Training samples:      10
+2026-05-12 10:49:38 - INFO - Feature dimension:     40
+2026-05-12 10:49:38 - INFO - Trees:                 200
+2026-05-12 10:49:38 - INFO - Training time:         2.13s
+2026-05-12 10:49:38 - INFO - ============================================================
+2026-05-12 10:49:38 - INFO - Metrics saved for stage: training_complete
+2026-05-12 10:49:38 - INFO - ============================================================
+2026-05-12 10:49:38 - INFO - RANDOM FOREST MODEL EVALUATION
+2026-05-12 10:49:38 - INFO - ============================================================
+2026-05-12 10:49:39 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 10:49:57 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 10:50:10 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 10:50:18 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 10:50:31 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 10:50:45 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 10:50:53 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 10:50:54 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 10:50:55 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 10:50:56 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 10:50:57 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 10:50:58 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 10:50:59 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 10:51:02 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 10:51:13 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 10:51:22 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 10:51:37 - DEBUG - Loaded 50 files for Davy-Crockett
+2026-05-12 10:51:37 - INFO - Loaded 694 test samples

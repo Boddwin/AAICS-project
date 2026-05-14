@@ -1,0 +1,38 @@
+2026-05-12 16:20:04 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\results\rf_1-to-n_20260512_162004\config.json
+2026-05-12 16:20:04 - INFO - ============================================================
+2026-05-12 16:20:04 - INFO - RANDOM FOREST MODEL TRAINING
+2026-05-12 16:20:04 - INFO - ============================================================
+2026-05-12 16:20:05 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 16:20:05 - INFO - Loaded 10 samples from 10 files
+2026-05-12 16:20:05 - INFO - Training Random Forest with 200 trees...
+2026-05-12 16:20:06 - INFO - ============================================================
+2026-05-12 16:20:06 - INFO - TRAINING SUMMARY
+2026-05-12 16:20:06 - INFO - ============================================================
+2026-05-12 16:20:06 - INFO - Speakers:              1
+2026-05-12 16:20:06 - INFO - Training samples:      10
+2026-05-12 16:20:06 - INFO - Feature dimension:     40
+2026-05-12 16:20:06 - INFO - Trees:                 200
+2026-05-12 16:20:06 - INFO - Training time:         2.18s
+2026-05-12 16:20:06 - INFO - ============================================================
+2026-05-12 16:20:06 - INFO - Metrics saved for stage: training_complete
+2026-05-12 16:20:06 - INFO - ============================================================
+2026-05-12 16:20:06 - INFO - RANDOM FOREST MODEL EVALUATION
+2026-05-12 16:20:06 - INFO - ============================================================
+2026-05-12 16:20:08 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 16:20:26 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 16:20:40 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 16:20:48 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 16:21:01 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 16:21:15 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 16:21:23 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 16:21:23 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 16:21:24 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 16:21:25 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 16:21:26 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 16:21:27 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 16:21:27 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 16:21:30 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 16:21:42 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 16:21:51 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 16:22:05 - DEBUG - Loaded 50 files for Davy-Crockett
+2026-05-12 16:22:05 - INFO - Loaded 694 test samples

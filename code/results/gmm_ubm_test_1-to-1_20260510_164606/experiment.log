@@ -1,0 +1,24 @@
+2026-05-10 16:46:06 - INFO - Config saved: results\gmm_ubm_test_1-to-1_20260510_164606\config.json
+2026-05-10 16:46:06 - INFO - ============================================================
+2026-05-10 16:46:06 - INFO - GMM-UBM MODEL EVALUATION
+2026-05-10 16:46:06 - INFO - ============================================================
+2026-05-10 16:46:06 - INFO - Models folder: speaker_models
+2026-05-10 16:46:06 - INFO - Test folder: ..\data\1-to-1\test
+2026-05-10 16:46:06 - INFO - Threshold: -25
+2026-05-10 16:46:06 - DEBUG - Processing speaker: Action-potential
+2026-05-10 16:46:07 - INFO - [OK] CORRECT: Action-potential -> Action-potential (LLR=   0.08, GMM= -23.26)
+2026-05-10 16:46:07 - INFO - ============================================================
+2026-05-10 16:46:07 - INFO - EVALUATION SUMMARY
+2026-05-10 16:46:07 - INFO - ============================================================
+2026-05-10 16:46:07 - INFO - Total processed:       1
+2026-05-10 16:46:07 - INFO - Correct matches:       1
+2026-05-10 16:46:07 - INFO - Incorrect matches:     0
+2026-05-10 16:46:07 - INFO - No match found:        0
+2026-05-10 16:46:07 - INFO - Accuracy:              1.0000 (100.00%)
+2026-05-10 16:46:07 - INFO - FNMR:                  0.0000
+2026-05-10 16:46:07 - INFO - FMR:                   0.0000
+2026-05-10 16:46:07 - INFO - Evaluation time:       1.69s
+2026-05-10 16:46:07 - INFO - ============================================================
+2026-05-10 16:46:07 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-10 16:46:07 - INFO - Summary saved: results\gmm_ubm_test_1-to-1_20260510_164606\summary.json
+2026-05-10 16:46:07 - INFO - EVALUATION COMPLETE

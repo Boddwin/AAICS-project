@@ -1,0 +1,19 @@
+2026-05-10 16:45:35 - INFO - Config saved: results\gmm_ubm_train_1-to-1_20260510_164535\config.json
+2026-05-10 16:45:35 - INFO - Cleared previous models from speaker_models
+2026-05-10 16:45:35 - INFO - ============================================================
+2026-05-10 16:45:35 - INFO - GMM-UBM MODEL TRAINING
+2026-05-10 16:45:35 - INFO - ============================================================
+2026-05-10 16:45:35 - INFO - Audio files path: ..\data\1-to-1\train
+2026-05-10 16:45:35 - INFO - N components: 16
+2026-05-10 16:45:35 - DEBUG - Processing speaker: Action-potential
+2026-05-10 16:45:42 - INFO - ============================================================
+2026-05-10 16:45:42 - INFO - TRAINING SUMMARY
+2026-05-10 16:45:42 - INFO - ============================================================
+2026-05-10 16:45:42 - INFO - Speakers trained:    1
+2026-05-10 16:45:42 - INFO - Audio files:         10
+2026-05-10 16:45:42 - INFO - Total features:      54945
+2026-05-10 16:45:42 - INFO - Training time:       7.11s
+2026-05-10 16:45:42 - INFO - ============================================================
+2026-05-10 16:45:42 - INFO - Metrics saved for stage: training_complete
+2026-05-10 16:45:42 - INFO - Summary saved: results\gmm_ubm_train_1-to-1_20260510_164535\summary.json
+2026-05-10 16:45:42 - INFO - TRAINING COMPLETE

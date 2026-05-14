@@ -1,0 +1,3 @@
+stage,timestamp,classes,training_samples,epochs,training_time_seconds,total,correct,incorrect,notmatched,accuracy,fnmr,fmr,evaluation_time_seconds
+training_complete,2026-05-12T16:19:58.621631,1,10,30,14.143957614898682,,,,,,,,
+evaluation_complete,2026-05-12T16:20:00.376162,,,,,10,10,0,0,1.0,0.0,0.0,1.751326560974121

@@ -1,0 +1,18 @@
+{
+  "total": 694,
+  "correct": 10,
+  "incorrect": 684,
+  "notmatched": 0,
+  "accuracy": 0.01440922190201729,
+  "fnmr": 0.0,
+  "fmr": 1.0,
+  "known_total": 10,
+  "unknown_total": 684,
+  "correct_accepts": 10,
+  "correct_rejects": 0,
+  "false_accepts": 684,
+  "false_rejects": 0,
+  "misidentified_known": 0,
+  "open_set": true,
+  "evaluation_time_seconds": 111.70987892150879
+}

@@ -1,0 +1,5 @@
+{
+  "dataset": "1-to-1",
+  "algorithm": "GMM-UBM",
+  "threshold": -25
+}

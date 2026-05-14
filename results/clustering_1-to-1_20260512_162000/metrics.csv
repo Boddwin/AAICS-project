@@ -1,0 +1,2 @@
+stage,timestamp,n_clusters,n_samples,feature_dimension,ari,nmi,silhouette_score,clustering_time_seconds
+clustering_complete,2026-05-12T16:20:02.280334,1,10,40,1.0,1.0,0.0,1.8861596584320068

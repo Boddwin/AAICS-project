@@ -1,0 +1,3 @@
+stage,timestamp,speakers_trained,audio_files,total_features,training_time_seconds,total,correct,incorrect,notmatched,accuracy,fnmr,fmr,evaluation_time_seconds,threshold
+training_complete,2026-05-12T15:44:07.426087,100,823,8017121,302.11708211898804,,,,,,,,,
+evaluation_complete,2026-05-12T15:48:54.652698,,,,,100,95,2,3,0.95,0.03,0.02,287.1913297176361,-25

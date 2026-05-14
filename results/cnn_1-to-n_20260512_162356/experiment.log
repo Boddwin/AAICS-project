@@ -1,0 +1,43 @@
+2026-05-12 16:23:56 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\results\cnn_1-to-n_20260512_162356\config.json
+2026-05-12 16:23:56 - INFO - ============================================================
+2026-05-12 16:23:56 - INFO - CNN MODEL TRAINING
+2026-05-12 16:23:56 - INFO - ============================================================
+2026-05-12 16:23:58 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 16:23:58 - INFO - Loaded 10 samples from 10 files
+2026-05-12 16:23:58 - INFO - Classes: 1
+2026-05-12 16:23:58 - INFO - Input shape: (10, 300, 40, 1)
+2026-05-12 16:23:58 - INFO - Building CNN model...
+2026-05-12 16:23:58 - INFO - Training for 30 epochs with batch size 8...
+2026-05-12 16:24:10 - INFO - ============================================================
+2026-05-12 16:24:10 - INFO - TRAINING SUMMARY
+2026-05-12 16:24:10 - INFO - ============================================================
+2026-05-12 16:24:10 - INFO - Classes:               1
+2026-05-12 16:24:10 - INFO - Training samples:      10
+2026-05-12 16:24:10 - INFO - Input shape:           (10, 300, 40, 1)
+2026-05-12 16:24:10 - INFO - Epochs:                30
+2026-05-12 16:24:10 - INFO - Batch size:            8
+2026-05-12 16:24:10 - INFO - Final train loss:      0.0000
+2026-05-12 16:24:10 - INFO - Final train accuracy:  0.0000
+2026-05-12 16:24:10 - INFO - Training time:         13.31s
+2026-05-12 16:24:10 - INFO - ============================================================
+2026-05-12 16:24:10 - INFO - Metrics saved for stage: training_complete
+2026-05-12 16:24:10 - INFO - ============================================================
+2026-05-12 16:24:10 - INFO - CNN MODEL EVALUATION
+2026-05-12 16:24:10 - INFO - ============================================================
+2026-05-12 16:24:11 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 16:24:28 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 16:24:41 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 16:24:49 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 16:25:01 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 16:25:14 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 16:25:22 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 16:25:22 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 16:25:23 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 16:25:24 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 16:25:25 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 16:25:25 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 16:25:26 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 16:25:28 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 16:25:39 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 16:25:47 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 16:26:02 - DEBUG - Loaded 50 files for Davy-Crockett

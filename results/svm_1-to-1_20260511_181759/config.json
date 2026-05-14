@@ -1,0 +1,6 @@
+{
+  "dataset": "1-to-1",
+  "algorithm": "SVM",
+  "kernel": "rbf",
+  "C": 10
+}

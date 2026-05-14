@@ -1,0 +1,13 @@
+{
+  "n_clusters": 3,
+  "n_samples": 1293,
+  "feature_dimension": 40,
+  "ari": null,
+  "nmi": null,
+  "silhouette_score": 0.06646399045007793,
+  "clustering_time_seconds": 100.68103981018066,
+  "segment_seconds": 5.0,
+  "source_files": 1,
+  "skipped_files": 0,
+  "evaluation_note": "segment-level clustering without ground-truth labels"
+}

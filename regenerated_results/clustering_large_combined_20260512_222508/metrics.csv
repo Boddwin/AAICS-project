@@ -1,0 +1,2 @@
+stage,timestamp,n_clusters,n_samples,feature_dimension,ari,nmi,silhouette_score,clustering_time_seconds,segment_seconds,source_files,skipped_files,evaluation_note
+segment_clustering_complete,2026-05-12T22:26:49.384977,3,1293,40,,,0.06646399045007793,100.68103981018066,5.0,1,0,segment-level clustering without ground-truth labels

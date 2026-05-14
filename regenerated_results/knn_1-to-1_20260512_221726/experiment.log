@@ -1,0 +1,39 @@
+2026-05-12 22:17:26 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\knn_1-to-1_20260512_221726\config.json
+2026-05-12 22:17:26 - INFO - ============================================================
+2026-05-12 22:17:26 - INFO - K-NEAREST NEIGHBORS MODEL TRAINING
+2026-05-12 22:17:26 - INFO - ============================================================
+2026-05-12 22:17:28 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:17:28 - INFO - Loaded 10 samples from 10 files
+2026-05-12 22:17:28 - INFO - Training KNN with k=5...
+2026-05-12 22:17:28 - INFO - ============================================================
+2026-05-12 22:17:28 - INFO - TRAINING SUMMARY
+2026-05-12 22:17:28 - INFO - ============================================================
+2026-05-12 22:17:28 - INFO - Speakers:              1
+2026-05-12 22:17:28 - INFO - Training samples:      10
+2026-05-12 22:17:28 - INFO - Feature dimension:     40
+2026-05-12 22:17:28 - INFO - K value:               5
+2026-05-12 22:17:28 - INFO - Training time:         2.03s
+2026-05-12 22:17:28 - INFO - ============================================================
+2026-05-12 22:17:28 - INFO - Metrics saved for stage: training_complete
+2026-05-12 22:17:28 - INFO - ============================================================
+2026-05-12 22:17:28 - INFO - K-NEAREST NEIGHBORS MODEL EVALUATION
+2026-05-12 22:17:28 - INFO - ============================================================
+2026-05-12 22:17:30 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:17:30 - INFO - Loaded 10 test samples
+2026-05-12 22:17:30 - INFO - ============================================================
+2026-05-12 22:17:30 - INFO - EVALUATION SUMMARY
+2026-05-12 22:17:30 - INFO - ============================================================
+2026-05-12 22:17:30 - INFO - Total processed:       10
+2026-05-12 22:17:30 - INFO - Known speaker samples: 10
+2026-05-12 22:17:30 - INFO - Unknown speaker samples: 0
+2026-05-12 22:17:30 - INFO - Correct predictions:   10
+2026-05-12 22:17:30 - INFO - Incorrect predictions: 0
+2026-05-12 22:17:30 - INFO - False accepts:         0
+2026-05-12 22:17:30 - INFO - False rejects:         0
+2026-05-12 22:17:30 - INFO - Accuracy:              1.0000 (100.00%)
+2026-05-12 22:17:30 - INFO - FNMR:                  0.0000
+2026-05-12 22:17:30 - INFO - FMR:                   0.0000
+2026-05-12 22:17:30 - INFO - Evaluation time:       1.73s
+2026-05-12 22:17:30 - INFO - ============================================================
+2026-05-12 22:17:30 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 22:17:30 - INFO - Summary saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\knn_1-to-1_20260512_221726\summary.json

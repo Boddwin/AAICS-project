@@ -1,0 +1,4 @@
+algorithm,dataset,task,timestamp,total,correct,incorrect,notmatched,accuracy,fnmr,fmr,evaluation_time_seconds,threshold
+GMM-UBM,1-to-1,verification,2026-05-12T15:36:41.473637,1,0,0,1,0.0,1.0,0.0,2.6565003395080566,-25
+GMM-UBM,1-to-n,identification,2026-05-12T15:39:05.295069,17,1,0,16,0.058823529411764705,0.9411764705882353,0.0,139.46838092803955,-25
+GMM-UBM,n-to-n,grouping,2026-05-12T15:48:54.657250,100,95,2,3,0.95,0.03,0.02,287.1913297176361,-25

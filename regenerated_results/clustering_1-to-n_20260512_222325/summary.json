@@ -1,0 +1,10 @@
+{
+  "n_clusters": 17,
+  "n_samples": 694,
+  "feature_dimension": 40,
+  "ari": 0.07033458001338296,
+  "nmi": 0.23695313074063346,
+  "silhouette_score": 0.03392104934373953,
+  "clustering_time_seconds": 103.39713168144226,
+  "data_split": "test"
+}

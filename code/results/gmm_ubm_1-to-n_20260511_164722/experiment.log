@@ -1,0 +1,83 @@
+2026-05-11 16:47:22 - INFO - 
+======================================================================
+2026-05-11 16:47:22 - INFO - GMM-UBM EXPERIMENT: 1-to-n
+2026-05-11 16:47:22 - INFO - ======================================================================
+
+2026-05-11 16:47:22 - INFO - Starting training phase...
+2026-05-11 16:47:22 - INFO - Cleared previous models from speaker_models
+2026-05-11 16:47:22 - INFO - Cleared previous UBM from ubm_model
+2026-05-11 16:47:22 - INFO - ============================================================
+2026-05-11 16:47:22 - INFO - GMM-UBM MODEL TRAINING
+2026-05-11 16:47:22 - INFO - ============================================================
+2026-05-11 16:47:22 - INFO - Audio files path: ../data/1-to-n\train
+2026-05-11 16:47:22 - INFO - N components: 16
+2026-05-11 16:47:22 - DEBUG - Processing speaker: Action-potential
+2026-05-11 16:47:26 - INFO - [OK] Model trained: Action-potential | Features: (9990, 40) | Audio files: 10
+2026-05-11 16:47:27 - INFO - [OK] UBM trained | Features: (9990, 40)
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - TRAINING SUMMARY
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - Speakers trained:    1
+2026-05-11 16:47:27 - INFO - Audio files:         10
+2026-05-11 16:47:27 - INFO - Total features:      54945
+2026-05-11 16:47:27 - INFO - Training time:       4.92s
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - Metrics saved for stage: training_complete
+2026-05-11 16:47:27 - INFO - Summary saved: results\gmm_ubm_1-to-n_20260511_164722\summary.json
+2026-05-11 16:47:27 - INFO - Starting testing phase...
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - GMM-UBM MODEL EVALUATION
+2026-05-11 16:47:27 - INFO - ============================================================
+2026-05-11 16:47:27 - INFO - Models folder: speaker_models
+2026-05-11 16:47:27 - INFO - Test folder: ../data/1-to-n\test
+2026-05-11 16:47:27 - INFO - Threshold: -25
+2026-05-11 16:47:27 - INFO - [OK] Loaded 1 speaker models
+2026-05-11 16:47:27 - INFO - [OK] Loaded UBM model
+2026-05-11 16:47:27 - DEBUG - Processing speaker: Action-potential
+2026-05-11 16:47:29 - INFO - - NO MATCH: Action-potential -> Action-potential (LLR=  -0.02, GMM= -23.34)
+2026-05-11 16:47:29 - DEBUG - Processing speaker: Adrianne-Wadewitz
+2026-05-11 16:47:52 - INFO - - NO MATCH: Adrianne-Wadewitz -> Action-potential (LLR=   0.17, GMM= -27.93)
+2026-05-11 16:47:52 - DEBUG - Processing speaker: Air-tractor_sledge
+2026-05-11 16:48:08 - INFO - - NO MATCH: Air-tractor_sledge -> Action-potential (LLR=  -0.02, GMM= -29.22)
+2026-05-11 16:48:08 - DEBUG - Processing speaker: Alan-Harper_(Two_and_a_Half_Men)
+2026-05-11 16:48:16 - INFO - - NO MATCH: Alan-Harper_(Two_and_a_Half_Men) -> Action-potential (LLR=   0.22, GMM= -28.27)
+2026-05-11 16:48:16 - DEBUG - Processing speaker: Ali-G
+2026-05-11 16:48:32 - INFO - - NO MATCH: Ali-G           -> Action-potential (LLR=   0.17, GMM= -26.59)
+2026-05-11 16:48:32 - DEBUG - Processing speaker: Alleyway-1
+2026-05-11 16:48:48 - INFO - - NO MATCH: Alleyway-1      -> Action-potential (LLR=   0.33, GMM= -29.26)
+2026-05-11 16:48:48 - DEBUG - Processing speaker: Ana-Lucia_Cortez
+2026-05-11 16:48:57 - INFO - - NO MATCH: Ana-Lucia_Cortez -> Action-potential (LLR=   0.13, GMM= -28.16)
+2026-05-11 16:48:57 - DEBUG - Processing speaker: anthonyschaller-20071221-
+2026-05-11 16:48:57 - INFO - - NO MATCH: anthonyschaller-20071221- -> Action-potential (LLR=   0.46, GMM= -29.88)
+2026-05-11 16:48:57 - DEBUG - Processing speaker: Apple_Eater-20091026-yul
+2026-05-11 16:48:58 - INFO - - NO MATCH: Apple_Eater-20091026-yul -> Action-potential (LLR=   0.65, GMM= -34.72)
+2026-05-11 16:48:58 - DEBUG - Processing speaker: Ara-20091021-wpl
+2026-05-11 16:49:00 - INFO - - NO MATCH: Ara-20091021-wpl -> Action-potential (LLR=   0.26, GMM= -30.74)
+2026-05-11 16:49:00 - DEBUG - Processing speaker: Ara2-20-vni
+2026-05-11 16:49:01 - INFO - - NO MATCH: Ara2-20-vni     -> Action-potential (LLR=   0.49, GMM= -31.50)
+2026-05-11 16:49:01 - DEBUG - Processing speaker: atamur-20090211-wdo
+2026-05-11 16:49:02 - INFO - - NO MATCH: atamur-20090211-wdo -> Action-potential (LLR=   0.18, GMM= -32.76)
+2026-05-11 16:49:02 - DEBUG - Processing speaker: ataru80-20120624-hfe
+2026-05-11 16:49:03 - INFO - - NO MATCH: ataru80-20120624-hfe -> Action-potential (LLR=   0.32, GMM= -31.93)
+2026-05-11 16:49:03 - DEBUG - Processing speaker: atterer-01202007-b
+2026-05-11 16:49:06 - INFO - - NO MATCH: atterer-01202007-b -> Action-potential (LLR=   0.42, GMM= -32.77)
+2026-05-11 16:49:06 - DEBUG - Processing speaker: Baden-Powell_House
+2026-05-11 16:49:18 - INFO - - NO MATCH: Baden-Powell_House -> Action-potential (LLR=   0.05, GMM= -29.06)
+2026-05-11 16:49:18 - DEBUG - Processing speaker: Beverage-can_stove
+2026-05-11 16:49:28 - INFO - - NO MATCH: Beverage-can_stove -> Action-potential (LLR=  -0.06, GMM= -26.78)
+2026-05-11 16:49:28 - DEBUG - Processing speaker: Davy-Crockett
+2026-05-11 16:49:45 - INFO - - NO MATCH: Davy-Crockett   -> Action-potential (LLR=   0.38, GMM= -25.01)
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - EVALUATION SUMMARY
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - Total processed:       17
+2026-05-11 16:49:45 - INFO - Correct matches:       0
+2026-05-11 16:49:45 - INFO - Incorrect matches:     0
+2026-05-11 16:49:45 - INFO - No match found:        17
+2026-05-11 16:49:45 - INFO - Accuracy:              0.0000 (0.00%)
+2026-05-11 16:49:45 - INFO - FNMR:                  1.0000
+2026-05-11 16:49:45 - INFO - FMR:                   0.0000
+2026-05-11 16:49:45 - INFO - Evaluation time:       138.23s
+2026-05-11 16:49:45 - INFO - ============================================================
+2026-05-11 16:49:45 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-11 16:49:45 - INFO - Summary saved: results\gmm_ubm_1-to-n_20260511_164722\summary.json

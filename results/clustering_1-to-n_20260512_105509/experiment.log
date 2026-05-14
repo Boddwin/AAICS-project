@@ -1,0 +1,23 @@
+2026-05-12 10:55:09 - INFO - Config saved: results\clustering_1-to-n_20260512_105509\config.json
+2026-05-12 10:55:09 - INFO - ============================================================
+2026-05-12 10:55:09 - INFO - CLUSTERING (K-MEANS) MODEL
+2026-05-12 10:55:09 - INFO - ============================================================
+2026-05-12 10:55:10 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 10:55:10 - INFO - Loaded 10 samples from 10 files
+2026-05-12 10:55:10 - INFO - Ground truth speakers: 1
+2026-05-12 10:55:10 - INFO - Feature dimension: 40
+2026-05-12 10:55:10 - INFO - Running K-Means with k=1...
+2026-05-12 10:55:10 - WARNING - Could not compute silhouette score: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)
+2026-05-12 10:55:10 - INFO - ============================================================
+2026-05-12 10:55:10 - INFO - CLUSTERING SUMMARY
+2026-05-12 10:55:10 - INFO - ============================================================
+2026-05-12 10:55:10 - INFO - Clusters:                1
+2026-05-12 10:55:10 - INFO - Samples:                 10
+2026-05-12 10:55:10 - INFO - Feature dimension:       40
+2026-05-12 10:55:10 - INFO - Adjusted Rand Index:     1.0000  (1.0=perfect, 0.0=random)
+2026-05-12 10:55:10 - INFO - Normalized Mutual Info:  1.0000  (1.0=perfect, 0.0=random)
+2026-05-12 10:55:10 - INFO - Silhouette Score:        0.0000 (-1 to 1, higher is better)
+2026-05-12 10:55:10 - INFO - Clustering time:         1.55s
+2026-05-12 10:55:10 - INFO - ============================================================
+2026-05-12 10:55:10 - INFO - Metrics saved for stage: clustering_complete
+2026-05-12 10:55:10 - INFO - Summary saved: results\clustering_1-to-n_20260512_105509\summary.json

@@ -1,0 +1,10 @@
+{
+  "total": 10,
+  "correct": 10,
+  "incorrect": 0,
+  "notmatched": 0,
+  "accuracy": 1.0,
+  "fnmr": 0.0,
+  "fmr": 0.0,
+  "evaluation_time_seconds": 1.8083276748657227
+}

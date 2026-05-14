@@ -1,0 +1,57 @@
+2026-05-12 21:41:28 - INFO - 
+======================================================================
+2026-05-12 21:41:28 - INFO - GMM-UBM EXPERIMENT: 1-to-n
+2026-05-12 21:41:28 - INFO - ======================================================================
+
+2026-05-12 21:41:28 - INFO - Starting training phase...
+2026-05-12 21:41:28 - INFO - Cleared previous models from regenerated_results\models\1-to-n\speaker_models
+2026-05-12 21:41:28 - INFO - ============================================================
+2026-05-12 21:41:28 - INFO - GMM-UBM MODEL TRAINING
+2026-05-12 21:41:28 - INFO - ============================================================
+2026-05-12 21:41:28 - INFO - Audio files path: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\data\1-to-n\train
+2026-05-12 21:41:28 - INFO - N components: 16
+2026-05-12 21:41:28 - DEBUG - Processing speaker: Action-potential
+2026-05-12 21:41:34 - INFO - [OK] Model trained: Action-potential | Features: (9990, 40) | Audio files: 10
+2026-05-12 21:41:35 - INFO - [OK] UBM trained | Features: (9990, 40)
+2026-05-12 21:41:35 - INFO - ============================================================
+2026-05-12 21:41:35 - INFO - TRAINING SUMMARY
+2026-05-12 21:41:35 - INFO - ============================================================
+2026-05-12 21:41:35 - INFO - Speakers trained:    1
+2026-05-12 21:41:35 - INFO - Audio files:         10
+2026-05-12 21:41:35 - INFO - Total features:      54945
+2026-05-12 21:41:35 - INFO - Training time:       6.87s
+2026-05-12 21:41:35 - INFO - ============================================================
+2026-05-12 21:41:35 - INFO - Metrics saved for stage: training_complete
+2026-05-12 21:41:35 - INFO - Summary saved: regenerated_results\gmm_ubm_1-to-n_20260512_214128\summary.json
+2026-05-12 21:41:35 - INFO - Starting testing phase...
+2026-05-12 21:41:35 - INFO - ============================================================
+2026-05-12 21:41:35 - INFO - GMM-UBM UTTERANCE-LEVEL EVALUATION
+2026-05-12 21:41:35 - INFO - ============================================================
+2026-05-12 21:41:35 - INFO - Models folder: regenerated_results\models\1-to-n\speaker_models
+2026-05-12 21:41:35 - INFO - Test folder: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\data\1-to-n\test
+2026-05-12 21:41:35 - INFO - Threshold metric: gmm_score
+2026-05-12 21:41:35 - INFO - [OK] Loaded 1 speaker models
+2026-05-12 21:41:35 - INFO - [OK] Loaded UBM model
+2026-05-12 21:44:17 - INFO - ============================================================
+2026-05-12 21:44:17 - INFO - UTTERANCE EVALUATION SUMMARY
+2026-05-12 21:44:17 - INFO - ============================================================
+2026-05-12 21:44:17 - INFO - Total processed:       694
+2026-05-12 21:44:17 - INFO - Known speaker samples: 10
+2026-05-12 21:44:17 - INFO - Unknown speaker samples: 684
+2026-05-12 21:44:17 - INFO - Correct:               555
+2026-05-12 21:44:17 - INFO - Incorrect:             137
+2026-05-12 21:44:17 - INFO - False accepts:         137
+2026-05-12 21:44:17 - INFO - False rejects:         2
+2026-05-12 21:44:17 - INFO - Accuracy:              0.7997 (79.97%)
+2026-05-12 21:44:17 - INFO - FNMR:                  0.2000
+2026-05-12 21:44:17 - INFO - FMR:                   0.2003
+2026-05-12 21:44:17 - INFO - EER:                   0.2001
+2026-05-12 21:44:17 - INFO - EER threshold:         -28.0404
+2026-05-12 21:44:17 - INFO - Selected threshold:    -28.0404 (eer_sweep)
+2026-05-12 21:44:17 - INFO - Evaluation time:       162.28s
+2026-05-12 21:44:17 - INFO - ============================================================
+2026-05-12 21:44:17 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 21:44:17 - INFO - Summary saved: regenerated_results\gmm_ubm_1-to-n_20260512_214128\summary.json
+2026-05-12 21:44:17 - INFO - 
+[OK] GMM-UBM experiment completed successfully
+

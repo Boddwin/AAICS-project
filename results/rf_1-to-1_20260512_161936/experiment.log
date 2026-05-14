@@ -1,0 +1,35 @@
+2026-05-12 16:19:36 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\results\rf_1-to-1_20260512_161936\config.json
+2026-05-12 16:19:36 - INFO - ============================================================
+2026-05-12 16:19:36 - INFO - RANDOM FOREST MODEL TRAINING
+2026-05-12 16:19:36 - INFO - ============================================================
+2026-05-12 16:19:38 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 16:19:38 - INFO - Loaded 10 samples from 10 files
+2026-05-12 16:19:38 - INFO - Training Random Forest with 200 trees...
+2026-05-12 16:19:38 - INFO - ============================================================
+2026-05-12 16:19:38 - INFO - TRAINING SUMMARY
+2026-05-12 16:19:38 - INFO - ============================================================
+2026-05-12 16:19:38 - INFO - Speakers:              1
+2026-05-12 16:19:38 - INFO - Training samples:      10
+2026-05-12 16:19:38 - INFO - Feature dimension:     40
+2026-05-12 16:19:38 - INFO - Trees:                 200
+2026-05-12 16:19:38 - INFO - Training time:         2.38s
+2026-05-12 16:19:38 - INFO - ============================================================
+2026-05-12 16:19:38 - INFO - Metrics saved for stage: training_complete
+2026-05-12 16:19:38 - INFO - ============================================================
+2026-05-12 16:19:38 - INFO - RANDOM FOREST MODEL EVALUATION
+2026-05-12 16:19:38 - INFO - ============================================================
+2026-05-12 16:19:40 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 16:19:40 - INFO - Loaded 10 test samples
+2026-05-12 16:19:40 - INFO - ============================================================
+2026-05-12 16:19:40 - INFO - EVALUATION SUMMARY
+2026-05-12 16:19:40 - INFO - ============================================================
+2026-05-12 16:19:40 - INFO - Total processed:       10
+2026-05-12 16:19:40 - INFO - Correct predictions:   10
+2026-05-12 16:19:40 - INFO - Incorrect predictions: 0
+2026-05-12 16:19:40 - INFO - Accuracy:              1.0000 (100.00%)
+2026-05-12 16:19:40 - INFO - FNMR:                  0.0000
+2026-05-12 16:19:40 - INFO - FMR:                   0.0000
+2026-05-12 16:19:40 - INFO - Evaluation time:       1.81s
+2026-05-12 16:19:40 - INFO - ============================================================
+2026-05-12 16:19:40 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 16:19:40 - INFO - Summary saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\results\rf_1-to-1_20260512_161936\summary.json

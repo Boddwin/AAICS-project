@@ -1,0 +1,3 @@
+speakers,training_samples,feature_dimension,training_time_seconds,stage,timestamp
+100,823,40,89.24899530410767,training_complete,2026-05-12T12:06:26.188746
+810,213,597,0,0.26296296296296295,0.0,0.737037037037037,120.37707686424255,evaluation_complete,2026-05-12T12:08:26.571467

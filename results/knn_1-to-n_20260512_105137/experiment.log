@@ -1,0 +1,38 @@
+2026-05-12 10:51:37 - INFO - Config saved: results\knn_1-to-n_20260512_105137\config.json
+2026-05-12 10:51:37 - INFO - ============================================================
+2026-05-12 10:51:37 - INFO - K-NEAREST NEIGHBORS MODEL TRAINING
+2026-05-12 10:51:37 - INFO - ============================================================
+2026-05-12 10:51:39 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 10:51:39 - INFO - Loaded 10 samples from 10 files
+2026-05-12 10:51:39 - INFO - Training KNN with k=5...
+2026-05-12 10:51:39 - INFO - ============================================================
+2026-05-12 10:51:39 - INFO - TRAINING SUMMARY
+2026-05-12 10:51:39 - INFO - ============================================================
+2026-05-12 10:51:39 - INFO - Speakers:              1
+2026-05-12 10:51:39 - INFO - Training samples:      10
+2026-05-12 10:51:39 - INFO - Feature dimension:     40
+2026-05-12 10:51:39 - INFO - K value:               5
+2026-05-12 10:51:39 - INFO - Training time:         2.25s
+2026-05-12 10:51:39 - INFO - ============================================================
+2026-05-12 10:51:39 - INFO - Metrics saved for stage: training_complete
+2026-05-12 10:51:39 - INFO - ============================================================
+2026-05-12 10:51:39 - INFO - K-NEAREST NEIGHBORS MODEL EVALUATION
+2026-05-12 10:51:39 - INFO - ============================================================
+2026-05-12 10:51:41 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 10:51:57 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 10:52:09 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 10:52:15 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 10:52:26 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 10:52:38 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 10:52:45 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 10:52:45 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 10:52:45 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 10:52:46 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 10:52:47 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 10:52:48 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 10:52:48 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 10:52:50 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 10:52:59 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 10:53:06 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 10:53:19 - DEBUG - Loaded 50 files for Davy-Crockett
+2026-05-12 10:53:19 - INFO - Loaded 694 test samples

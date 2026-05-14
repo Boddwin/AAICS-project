@@ -1,0 +1,10 @@
+{
+  "total": 810,
+  "correct": 204,
+  "incorrect": 606,
+  "notmatched": 0,
+  "accuracy": 0.2518518518518518,
+  "fnmr": 0.0,
+  "fmr": 0.7481481481481481,
+  "evaluation_time_seconds": 84.41107201576233
+}

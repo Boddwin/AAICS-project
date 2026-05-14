@@ -1,0 +1,59 @@
+2026-05-12 21:47:40 - INFO - 
+======================================================================
+2026-05-12 21:47:40 - INFO - KNN: 1-to-n
+2026-05-12 21:47:40 - INFO - ======================================================================
+
+2026-05-12 21:47:40 - INFO - ============================================================
+2026-05-12 21:47:40 - INFO - K-NEAREST NEIGHBORS MODEL TRAINING
+2026-05-12 21:47:40 - INFO - ============================================================
+2026-05-12 21:47:44 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 21:47:44 - INFO - Loaded 10 samples from 10 files
+2026-05-12 21:47:44 - INFO - Training KNN with k=5...
+2026-05-12 21:47:44 - INFO - ============================================================
+2026-05-12 21:47:44 - INFO - TRAINING SUMMARY
+2026-05-12 21:47:44 - INFO - ============================================================
+2026-05-12 21:47:44 - INFO - Speakers:              1
+2026-05-12 21:47:44 - INFO - Training samples:      10
+2026-05-12 21:47:44 - INFO - Feature dimension:     40
+2026-05-12 21:47:44 - INFO - K value:               5
+2026-05-12 21:47:44 - INFO - Training time:         3.88s
+2026-05-12 21:47:44 - INFO - ============================================================
+2026-05-12 21:47:44 - INFO - Metrics saved for stage: training_complete
+2026-05-12 21:47:44 - INFO - ============================================================
+2026-05-12 21:47:44 - INFO - K-NEAREST NEIGHBORS MODEL EVALUATION
+2026-05-12 21:47:44 - INFO - ============================================================
+2026-05-12 21:47:49 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 21:48:33 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 21:49:03 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 21:49:20 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 21:49:35 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 21:49:50 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 21:49:59 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 21:50:00 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 21:50:00 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 21:50:01 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 21:50:02 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 21:50:03 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 21:50:04 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 21:50:06 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 21:50:17 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 21:50:26 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 21:50:43 - DEBUG - Loaded 50 files for Davy-Crockett
+2026-05-12 21:50:43 - INFO - Loaded 694 test samples
+2026-05-12 21:50:44 - INFO - ============================================================
+2026-05-12 21:50:44 - INFO - EVALUATION SUMMARY
+2026-05-12 21:50:44 - INFO - ============================================================
+2026-05-12 21:50:44 - INFO - Total processed:       694
+2026-05-12 21:50:44 - INFO - Known speaker samples: 10
+2026-05-12 21:50:44 - INFO - Unknown speaker samples: 684
+2026-05-12 21:50:44 - INFO - Correct predictions:   10
+2026-05-12 21:50:44 - INFO - Incorrect predictions: 684
+2026-05-12 21:50:44 - INFO - False accepts:         684
+2026-05-12 21:50:44 - INFO - False rejects:         0
+2026-05-12 21:50:44 - INFO - Accuracy:              0.0144 (1.44%)
+2026-05-12 21:50:44 - INFO - FNMR:                  0.0000
+2026-05-12 21:50:44 - INFO - FMR:                   1.0000
+2026-05-12 21:50:44 - INFO - Evaluation time:       180.02s
+2026-05-12 21:50:44 - INFO - ============================================================
+2026-05-12 21:50:44 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 21:50:44 - INFO - Summary saved: regenerated_results\knn_1-to-n_20260512_214740\summary.json

@@ -1,0 +1,66 @@
+2026-05-12 21:50:44 - INFO - 
+======================================================================
+2026-05-12 21:50:44 - INFO - CNN: 1-to-n
+2026-05-12 21:50:44 - INFO - ======================================================================
+
+2026-05-12 21:50:44 - INFO - ============================================================
+2026-05-12 21:50:44 - INFO - CNN MODEL TRAINING
+2026-05-12 21:50:44 - INFO - ============================================================
+2026-05-12 21:50:46 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 21:50:46 - INFO - Loaded 10 samples from 10 files
+2026-05-12 21:50:46 - INFO - Classes: 1
+2026-05-12 21:50:46 - INFO - Input shape: (10, 300, 40, 1)
+2026-05-12 21:50:46 - INFO - Building CNN model...
+2026-05-12 21:50:58 - INFO - Training for 30 epochs with batch size 8...
+2026-05-12 21:51:12 - INFO - ============================================================
+2026-05-12 21:51:12 - INFO - TRAINING SUMMARY
+2026-05-12 21:51:12 - INFO - ============================================================
+2026-05-12 21:51:12 - INFO - Classes:               1
+2026-05-12 21:51:12 - INFO - Training samples:      10
+2026-05-12 21:51:12 - INFO - Input shape:           (10, 300, 40, 1)
+2026-05-12 21:51:12 - INFO - Epochs:                30
+2026-05-12 21:51:12 - INFO - Batch size:            8
+2026-05-12 21:51:12 - INFO - Final train loss:      0.0000
+2026-05-12 21:51:12 - INFO - Final train accuracy:  0.0000
+2026-05-12 21:51:12 - INFO - Training time:         27.94s
+2026-05-12 21:51:12 - INFO - ============================================================
+2026-05-12 21:51:12 - INFO - Metrics saved for stage: training_complete
+2026-05-12 21:51:12 - INFO - ============================================================
+2026-05-12 21:51:12 - INFO - CNN MODEL EVALUATION
+2026-05-12 21:51:12 - INFO - ============================================================
+2026-05-12 21:51:14 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 21:51:37 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 21:51:53 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 21:52:02 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 21:52:16 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 21:52:31 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 21:52:38 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 21:52:39 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 21:52:40 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 21:52:41 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 21:52:42 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 21:52:42 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 21:52:43 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 21:52:45 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 21:52:57 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 21:53:12 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 21:53:33 - DEBUG - Loaded 50 files for Davy-Crockett
+2026-05-12 21:53:33 - INFO - Loaded 694 test samples
+2026-05-12 21:53:33 - INFO - Making predictions...
+2026-05-12 21:53:35 - INFO - ============================================================
+2026-05-12 21:53:35 - INFO - EVALUATION SUMMARY
+2026-05-12 21:53:35 - INFO - ============================================================
+2026-05-12 21:53:35 - INFO - Total processed:       694
+2026-05-12 21:53:35 - INFO - Known speaker samples: 10
+2026-05-12 21:53:35 - INFO - Unknown speaker samples: 684
+2026-05-12 21:53:35 - INFO - Correct predictions:   10
+2026-05-12 21:53:35 - INFO - Incorrect predictions: 684
+2026-05-12 21:53:35 - INFO - False accepts:         684
+2026-05-12 21:53:35 - INFO - False rejects:         0
+2026-05-12 21:53:35 - INFO - Accuracy:              0.0144 (1.44%)
+2026-05-12 21:53:35 - INFO - FNMR:                  0.0000
+2026-05-12 21:53:35 - INFO - FMR:                   1.0000
+2026-05-12 21:53:35 - INFO - Evaluation time:       142.99s
+2026-05-12 21:53:35 - INFO - ============================================================
+2026-05-12 21:53:35 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 21:53:35 - INFO - Summary saved: regenerated_results\cnn_1-to-n_20260512_215044\summary.json

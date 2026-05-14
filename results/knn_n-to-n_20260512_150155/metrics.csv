@@ -1,0 +1,3 @@
+stage,timestamp,speakers,training_samples,feature_dimension,training_time_seconds,total,correct,incorrect,notmatched,accuracy,fnmr,fmr,evaluation_time_seconds
+training_complete,2026-05-12T15:03:19.869642,100,823,40,84.06347584724426,,,,,,,,
+evaluation_complete,2026-05-12T15:04:41.888257,,,,,810,130,680,0,0.16049382716049382,0.0,0.8395061728395061,82.0151686668396

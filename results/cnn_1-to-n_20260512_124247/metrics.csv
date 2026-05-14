@@ -1,0 +1,2 @@
+classes,training_samples,epochs,training_time_seconds,stage,timestamp
+1,10,30,12.562880277633667,training_complete,2026-05-12T12:43:00.193296

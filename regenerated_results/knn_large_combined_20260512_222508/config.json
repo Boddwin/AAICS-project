@@ -1,0 +1,4 @@
+{
+  "dataset": "large_combined",
+  "algorithm": "KNN"
+}

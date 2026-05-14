@@ -1,0 +1,42 @@
+2026-05-12 12:35:56 - INFO - Config saved: results\cnn_1-to-1_20260512_123556\config.json
+2026-05-12 12:35:56 - INFO - ============================================================
+2026-05-12 12:35:56 - INFO - CNN MODEL TRAINING
+2026-05-12 12:35:56 - INFO - ============================================================
+2026-05-12 12:35:58 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 12:35:58 - INFO - Loaded 10 samples from 10 files
+2026-05-12 12:35:58 - INFO - Classes: 1
+2026-05-12 12:35:58 - INFO - Input shape: (10, 300, 40, 1)
+2026-05-12 12:35:58 - INFO - Building CNN model...
+2026-05-12 12:35:58 - INFO - Training for 30 epochs with batch size 8...
+2026-05-12 12:36:10 - INFO - ============================================================
+2026-05-12 12:36:10 - INFO - TRAINING SUMMARY
+2026-05-12 12:36:10 - INFO - ============================================================
+2026-05-12 12:36:10 - INFO - Classes:               1
+2026-05-12 12:36:10 - INFO - Training samples:      10
+2026-05-12 12:36:10 - INFO - Input shape:           (10, 300, 40, 1)
+2026-05-12 12:36:10 - INFO - Epochs:                30
+2026-05-12 12:36:10 - INFO - Batch size:            8
+2026-05-12 12:36:10 - INFO - Final train loss:      0.0000
+2026-05-12 12:36:10 - INFO - Final train accuracy:  0.0000
+2026-05-12 12:36:10 - INFO - Training time:         13.55s
+2026-05-12 12:36:10 - INFO - ============================================================
+2026-05-12 12:36:10 - INFO - Metrics saved for stage: training_complete
+2026-05-12 12:36:10 - INFO - ============================================================
+2026-05-12 12:36:10 - INFO - CNN MODEL EVALUATION
+2026-05-12 12:36:10 - INFO - ============================================================
+2026-05-12 12:36:12 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 12:36:12 - INFO - Loaded 10 test samples
+2026-05-12 12:36:12 - INFO - Making predictions...
+2026-05-12 12:36:12 - INFO - ============================================================
+2026-05-12 12:36:12 - INFO - EVALUATION SUMMARY
+2026-05-12 12:36:12 - INFO - ============================================================
+2026-05-12 12:36:12 - INFO - Total processed:       10
+2026-05-12 12:36:12 - INFO - Correct predictions:   10
+2026-05-12 12:36:12 - INFO - Incorrect predictions: 0
+2026-05-12 12:36:12 - INFO - Accuracy:              1.0000 (100.00%)
+2026-05-12 12:36:12 - INFO - FNMR:                  0.0000
+2026-05-12 12:36:12 - INFO - FMR:                   0.0000
+2026-05-12 12:36:12 - INFO - Evaluation time:       2.31s
+2026-05-12 12:36:12 - INFO - ============================================================
+2026-05-12 12:36:12 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 12:36:12 - INFO - Summary saved: results\cnn_1-to-1_20260512_123556\summary.json

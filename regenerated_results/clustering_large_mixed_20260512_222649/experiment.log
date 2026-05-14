@@ -1,0 +1,23 @@
+2026-05-12 22:26:49 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\clustering_large_mixed_20260512_222649\config.json
+2026-05-12 22:26:49 - INFO - ============================================================
+2026-05-12 22:26:49 - INFO - CLUSTERING (K-MEANS) MODEL
+2026-05-12 22:26:49 - INFO - ============================================================
+2026-05-12 22:26:49 - INFO - ============================================================
+2026-05-12 22:26:49 - INFO - SEGMENT-LEVEL CLUSTERING (K-MEANS)
+2026-05-12 22:26:49 - INFO - ============================================================
+2026-05-12 22:29:11 - WARNING - Skipping unsupported audio file: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\data\large_mixed\minutes3\minutes3.m4a
+2026-05-12 22:29:11 - INFO - Loaded 2004 segments
+2026-05-12 22:29:11 - INFO - Feature dimension: 40
+2026-05-12 22:29:11 - INFO - Running K-Means with k=3...
+2026-05-12 22:29:12 - INFO - ============================================================
+2026-05-12 22:29:12 - INFO - SEGMENT CLUSTERING SUMMARY
+2026-05-12 22:29:12 - INFO - ============================================================
+2026-05-12 22:29:12 - INFO - Clusters:                3
+2026-05-12 22:29:12 - INFO - Segments:                2004
+2026-05-12 22:29:12 - INFO - Source files:            2
+2026-05-12 22:29:12 - INFO - Skipped files/segments:  1
+2026-05-12 22:29:12 - INFO - Silhouette Score:        0.0667
+2026-05-12 22:29:12 - INFO - Clustering time:         142.70s
+2026-05-12 22:29:12 - INFO - ============================================================
+2026-05-12 22:29:12 - INFO - Metrics saved for stage: segment_clustering_complete
+2026-05-12 22:29:12 - INFO - Summary saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\clustering_large_mixed_20260512_222649\summary.json

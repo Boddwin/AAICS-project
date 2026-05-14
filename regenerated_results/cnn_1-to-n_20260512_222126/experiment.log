@@ -1,0 +1,62 @@
+2026-05-12 22:21:26 - INFO - Config saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\cnn_1-to-n_20260512_222126\config.json
+2026-05-12 22:21:26 - INFO - ============================================================
+2026-05-12 22:21:26 - INFO - CNN MODEL TRAINING
+2026-05-12 22:21:26 - INFO - ============================================================
+2026-05-12 22:21:28 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:21:28 - INFO - Loaded 10 samples from 10 files
+2026-05-12 22:21:28 - INFO - Classes: 1
+2026-05-12 22:21:28 - INFO - Input shape: (10, 300, 40, 1)
+2026-05-12 22:21:28 - INFO - Building CNN model...
+2026-05-12 22:21:28 - INFO - Training for 30 epochs with batch size 8...
+2026-05-12 22:21:39 - INFO - ============================================================
+2026-05-12 22:21:39 - INFO - TRAINING SUMMARY
+2026-05-12 22:21:39 - INFO - ============================================================
+2026-05-12 22:21:39 - INFO - Classes:               1
+2026-05-12 22:21:39 - INFO - Training samples:      10
+2026-05-12 22:21:39 - INFO - Input shape:           (10, 300, 40, 1)
+2026-05-12 22:21:39 - INFO - Epochs:                30
+2026-05-12 22:21:39 - INFO - Batch size:            8
+2026-05-12 22:21:39 - INFO - Final train loss:      0.0000
+2026-05-12 22:21:39 - INFO - Final train accuracy:  0.0000
+2026-05-12 22:21:39 - INFO - Training time:         12.44s
+2026-05-12 22:21:39 - INFO - ============================================================
+2026-05-12 22:21:39 - INFO - Metrics saved for stage: training_complete
+2026-05-12 22:21:39 - INFO - ============================================================
+2026-05-12 22:21:39 - INFO - CNN MODEL EVALUATION
+2026-05-12 22:21:39 - INFO - ============================================================
+2026-05-12 22:21:40 - DEBUG - Loaded 10 files for Action-potential
+2026-05-12 22:21:57 - DEBUG - Loaded 59 files for Adrianne-Wadewitz
+2026-05-12 22:22:10 - DEBUG - Loaded 91 files for Air-tractor_sledge
+2026-05-12 22:22:18 - DEBUG - Loaded 26 files for Alan-Harper_(Two_and_a_Half_Men)
+2026-05-12 22:22:29 - DEBUG - Loaded 87 files for Ali-G
+2026-05-12 22:22:41 - DEBUG - Loaded 90 files for Alleyway-1
+2026-05-12 22:22:48 - DEBUG - Loaded 51 files for Ana-Lucia_Cortez
+2026-05-12 22:22:48 - DEBUG - Loaded 10 files for anthonyschaller-20071221-
+2026-05-12 22:22:48 - DEBUG - Loaded 10 files for Apple_Eater-20091026-yul
+2026-05-12 22:22:49 - DEBUG - Loaded 10 files for Ara-20091021-wpl
+2026-05-12 22:22:50 - DEBUG - Loaded 10 files for Ara2-20-vni
+2026-05-12 22:22:51 - DEBUG - Loaded 10 files for atamur-20090211-wdo
+2026-05-12 22:22:51 - DEBUG - Loaded 10 files for ataru80-20120624-hfe
+2026-05-12 22:22:53 - DEBUG - Loaded 40 files for atterer-01202007-b
+2026-05-12 22:23:03 - DEBUG - Loaded 70 files for Baden-Powell_House
+2026-05-12 22:23:10 - DEBUG - Loaded 60 files for Beverage-can_stove
+2026-05-12 22:23:23 - DEBUG - Loaded 50 files for Davy-Crockett
+2026-05-12 22:23:24 - INFO - Loaded 694 test samples
+2026-05-12 22:23:24 - INFO - Making predictions...
+2026-05-12 22:23:25 - INFO - ============================================================
+2026-05-12 22:23:25 - INFO - EVALUATION SUMMARY
+2026-05-12 22:23:25 - INFO - ============================================================
+2026-05-12 22:23:25 - INFO - Total processed:       694
+2026-05-12 22:23:25 - INFO - Known speaker samples: 10
+2026-05-12 22:23:25 - INFO - Unknown speaker samples: 684
+2026-05-12 22:23:25 - INFO - Correct predictions:   10
+2026-05-12 22:23:25 - INFO - Incorrect predictions: 684
+2026-05-12 22:23:25 - INFO - False accepts:         684
+2026-05-12 22:23:25 - INFO - False rejects:         0
+2026-05-12 22:23:25 - INFO - Accuracy:              0.0144 (1.44%)
+2026-05-12 22:23:25 - INFO - FNMR:                  0.0000
+2026-05-12 22:23:25 - INFO - FMR:                   1.0000
+2026-05-12 22:23:25 - INFO - Evaluation time:       105.77s
+2026-05-12 22:23:25 - INFO - ============================================================
+2026-05-12 22:23:25 - INFO - Metrics saved for stage: evaluation_complete
+2026-05-12 22:23:25 - INFO - Summary saved: C:\Users\Chris Boddy\OneDrive\Documents\Cyber Security and Digital Forensics MSc\Applications of Artificial Intelligence in Cyber Security\Assessment\project\regenerated_results\cnn_1-to-n_20260512_222126\summary.json
